@@ -1,0 +1,45 @@
+
+@charset "utf-8";
+
+* {margin:0; font-size:30px;}
+
+@media (max-width:599px) {
+    header .small{width:100%; display:flex; align-items:center; justify-content:flex-start; padding:20px;}
+    header #c a{padding:15px; text-decoration:none; display:block;}
+    header #c a:hover {color:#ef5350; text-decoration:none; display:block;}
+
+    .logo {width:150px; height:70px; line-height:80px;}
+    .menubar {width:70px; height:70px; line-height:80px;}
+    .menubar:hover {cursor:pointer;}
+
+    #a,#c {display:none; font-family: "BMDOHYEON";}
+    #b {font-family: "BMDOHYEON";}
+    img {cursor:pointer;}
+   }
+
+   .overlay {height:100%; width:0; position:fixed; z-index:103; top:0; left:0;
+             overflow-x:hidden; transition:0.5s; background-color: #eee; opacity:0.5;}
+   .overlay-cotent {position:relative; top:0; width:100%; text-align:center;
+             display:block; margin-top:30px;}
+   .overlay a {padding:60px; line-height:1%; font-size:50px; color:#818181;
+              transition: 0.3s; display:block;}
+   .overlay a:first-of-type {margin-top:100px;}
+   .overlay a:hover, .overlay a:focus {color:#000;}
+   .overlay .closebtn {position:absolute; top:0; right:15px; font-size:60px;}
+   
+   @media (min-width:600px) {
+    header .small{width:100%; display:flex; align-items:center; justify-content:flex-start; padding:20px;}
+    header  a{padding:15px; text-decoration:none; display:block;}
+    header a:hover {color:#ef5350; text-decoration:none; display:block;}
+
+    .logo {width:150px; height:70px; line-height:80px; margin: 0 0 0 10px; }
+    .menubar {width:70px; height:70px; line-height:80px;}
+    .menubar:hover {cursor:pointer;}
+
+    #a,#c {display:none; font-family: "BMDOHYEON";}
+    #b { font-family: "BMDOHYEON";}
+    img {cursor:pointer;}
+   }
+
+
+

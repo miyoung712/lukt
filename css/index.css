@@ -21,7 +21,7 @@
    .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#ea5f54; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
    .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
 
-    section {width:100%; height:1500px; margin:0 auto; background-color:none;}
+    section {width:100%; height:3000px; margin:0 auto; background-color:none;}
 
    .two_box {width:100%; height:230px; background-color:#fbe8e4;}
 
@@ -30,7 +30,7 @@
 
    .two_y_box:nth-of-type(2) {width:814px; height:550px; background-color:#fff; border-radius:50px 50px 0px 0px; position:relative; flex-wrap: wrap;}
 
-   .two_y_box h1 {font-family: "MaruBuri-Regular"; font-size:45px; color:#000; text-align:center; margin-top:98px; text-transform: uppercase; line-height:49px;}
+   .two_y_box h1 {font-family: "MaruBuri-Regular"; font-size:44px; color:#000; text-align:center; margin-top:98px; text-transform: uppercase; line-height:49px;}
    .two_y_box p {font-family: "S-CoreDream-4Regular"; font-size:14px; color:#878686; text-align:center; margin-top:27px; line-height:18px; letter-spacing:1px;}
 
     .two_y_button {font-family:"S-CoreDream-5Medium"; font-size:15px; width:185px; height:70px; border-radius:50px; color:#fff; position: absolute; top:66%; left:27%;  transform:translate(-50%, -50%); background-color:#212121; cursor:pointer; border:0; transform: scale(1.0); transition:0.3s;}
@@ -48,15 +48,17 @@
     .two_y_box img:first-of-type {width:280px; height:280px; position: absolute; top:37%; left:10%; }
     .two_y_box img:nth-of-type(2) {width:280px; height:280px; position: absolute; top:37%; right:10%;}
 
-    .slider_two {width:1200px; height:570px; background-color: aquamarine; margin:330px auto 0;}
-    .slide_wrap_two {width:1200px; height:570px; background-color: #3d5bb3; margin:330px auto 0;}
-    .slide_box_two {width:1200px; height:570px; background-color: #fcfbf7; margin:0px auto 0; }
-    .slide_box_two img {width:570px; height:418px; float:left;}
+    .slider_two {width:1200px; height:490px; background-color: aquamarine; margin:330px auto 0;}
+    .slide_wrap_two {width:1200px; height:490px; background-color: #3d5bb3; margin:330px auto 0;}
+    .slide_box_two {width:1200px; height:490px; background-color: #fcfbf7; margin:0px auto 0; display:flex; justify-content: space-evenly;  align-items: center;}
+
+    .slide_box_two img:first-of-type {width:562px; height:418px; float:left; margin:8px 0 0 10px;}
+    .slide_box_two img:nth-of-type(2) {width:562px; height:418px; float:left; margin:8px 0 0 10px;}
 
 
-    .slide_two_textbox {width:300px;height:570px; background-color: #ea5f54; float:right;}
+    .slide_two_textbox {width:410px; height:490px; background-color: #fcfbf7; float:right;}
 
-    .slide_box_two h3 {font-family: "MaruBuri-Regular"; font-size:39px; color:#000; margin-top:80px; float:right;}
-    .slide_box_two h4 {font-family: "MaruBuri-Regular"; font-size:17px; color:#000;margin-top:100px; float:right;}
+    .slide_box_two h3 {font-family: "MaruBuri-Regular"; font-size:39px; color:#000; margin-top:142px; float:right; text-align: right; text-transform: uppercase;}
+    .slide_box_two h4 {font-family:"S-CoreDream-3Light"; font-size:15px; color:#878686;margin-top:19px; float:right; text-align:right; letter-spacing:1px; line-height:22px;}
 
 
