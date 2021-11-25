@@ -53,7 +53,7 @@
     .slide_box_two {width:1200px; height:490px; background-color: #fcfbf7; margin:0px auto 0; display:flex; justify-content: space-evenly;  align-items: center;}
 
     .slide_box_two img:first-of-type {width:562px; height:418px; float:left; margin:8px 0 0 10px;}
-    .slide_box_two img:nth-of-type(2) {width:562px; height:418px; float:left; margin:8px 0 0 10px;}
+    .slide_box_two img:nth-of-type(2) {width:562px; height:490px; }
 
 
     .slide_two_textbox {width:410px; height:490px; background-color: #fcfbf7; float:right;}
