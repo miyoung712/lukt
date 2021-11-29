@@ -77,11 +77,11 @@
     .one_box {width:100%;height:300px;display:flex; justify-content: center; align-content: center;}
 
     .one_box div {width:150px; height:150px; border-radius:50% 50%; margin:10px 15px;}
-    .like_onebox:first-of-type{background-color:green;}
-    .like_onebox:nth-of-type(2){ background-color:#000;}
-    .like_onebox:nth-of-type(3){background-color: pink;}
-    .like_onebox:nth-of-type(4){background-color: yellow;}
-    .like_onebox:nth-of-type(5){background-color:blue;}
+    .like_onebox:first-of-type{background-color:#fff;}
+    .like_onebox:nth-of-type(2){ background-color:#fff;}
+    .like_onebox:nth-of-type(3){background-color: #fff;}
+    .like_onebox:nth-of-type(4){background-color: #fff;}
+    .like_onebox:nth-of-type(5){background-color:#fff;}
 
     .like_onebox:first-of-type img {width:90px; height:90px; margin:26px 0 0 27px;}
     .like_onebox:nth-of-type(2) img {width:110px; height:110px; margin:18px 0 0 20px;}
