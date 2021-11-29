@@ -10,14 +10,11 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 
-    <style>
-
-
-
-    </style>
 
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 
+
+    <!-- 카테고리 네비 메뉴바 -->
     <script>
        function openNav (){
            document.getElementById("myNav").style.width="100%";
@@ -25,9 +22,38 @@
         function closeNav() {
             document.getElementById("myNav").style.width="0%";
        }
+    // 카테고리 네비 메뉴바
 
-    </script>
 
+    // 두번째 (세번째 배너) 슬라이드
+   function prev() {
+        $('.slide_box_two:last').prependTo('.slide_wrap_two');
+        $('.slide_wrap_two').css('margin-left',-1200);
+        $('slide_wrap_two').stop().animate({marginLeft:0},800);
+    }
+    function next() {
+        $('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
+        $('.slide_box_two:first').appendTo('.slide_wrap_two');
+        $('.slide_wrap_two').css({marginLeft:0});
+        });
+    }
+    function slide(){
+        $('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
+        $('.slide_box_two:first').appendTo('.slide_wrap_two');
+        $('.slide_wrap_two').css({marginLeft:0});
+        });
+    }
+    setInterval(slide,3000);
+        $('.prev').click(function (){
+        prev();
+        });
+        $('.slide_box_two').click(function(){
+        next();
+        });
+  // 두번째 (세번째 배너) 슬라이드
+
+   </script>
+    
 
 </head>
 
@@ -104,33 +130,38 @@
     </div>
 
     <div class="slider_two">
+
         <div class="slide_wrap_two">
             <div class="slide_box_two">
+
+                <span class="two_prev">&lt;</span>
+                <span class="two_next">&gt;</span>
+
                 <img src="img/rolling/rolling_1.jpg" alt="">
 
                 <div class="slide_two_textbox">
-                    <h3>Yogurt ball<br>Cinnamon pecan</h3>
+                    <h3>Cinnamon pecan<br>Yogurt ball</h3>
                     <h4>The savory taste of cinnamon and pecan stands out
                         Sugar-free granola and low-fat mild yogurt</h4>        
                 </div>
             </div>
-<br>
+
             <div class="slide_box_two">
                 <img src="img/rolling/rolling_2.jpg" alt="">
 
                 <div class="slide_two_textbox">
-                    <h3>Yogurt ball<br>Honey granola</h3>
+                    <h3>Honey granola<br>Yogurt ball</h3>
                     <h4>It blends honey and granola gently<br>
                         It's popular with kids and men 
                         A combination<br>that everyone likes and dislikes</h4>      
                 </div>
             </div>
- <br>
+
             <div class="slide_box_two">
                 <img src="img/rolling/rolling_3.jpg" alt="">
 
                 <div class="slide_two_textbox">
-                    <h3>Yogurt ball<br>Lime lemon Thick</h3>
+                    <h3>Lime lemon Thick<br>Yogurt ball</h3>
                     <h4>It's full of citrus flavors of lime and lemon<br>
                         A combination of sugar-free<br>granola and high-protein cheese yogurt</h4>      
                 </div>
@@ -138,8 +169,27 @@
        </div>
     </div>
 
+    <div class=like_box>
+        <!-- <img src="img/like_bg.jpg" alt=""> -->
+        <h3>What Flavor Do You Like?</h3>
+        <h4>Choose Your Favorite Flavor</h4>
+            <div class="like_onebox">
+            </div>
 
- 
+            <div class="like_onebox">
+            </div>
+
+            <div class="like_onebox">
+            </div>
+
+            <div class="like_onebox">
+            </div>
+
+            <div class="like_onebox">
+            </div>
+   </div>
+
+
 
 
 
