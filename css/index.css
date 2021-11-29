@@ -71,24 +71,26 @@
 
     .like_box{width:1200px; height:620px; background-color: orange; margin:0 auto;display:flex; flex-wrap:wrap; justify-content: center; align-content: center;}
  
-    .like_box h3 {font-family: "MaruBuri-Regular"; color:#000; font-size:47px; text-align:center;width:100%; height:100px; margin-top:15px;}  
-    .like_box h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:29px; text-align:center; width:100%; height:80px; margin-top:-40px;;}
+    .like_box h3 {font-family: "MaruBuri-Regular"; color:#000; font-size:47px; text-align:center;width:100%; height:100px; margin-top:10px;}  
+    .like_box h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:29px; text-align:center; width:100%; height:80px; margin-top:-30px;}
 
     .one_box {width:100%;height:300px;display:flex; justify-content: center; align-content: center;}
 
-    .one_box div {width:150px; height:150px; border-radius:50% 50%; margin:-10px 15px;}
+    .one_box div {width:150px; height:150px; border-radius:50% 50%; margin:10px 15px;}
     .like_onebox:first-of-type{background-color:green;}
     .like_onebox:nth-of-type(2){ background-color:#000;}
     .like_onebox:nth-of-type(3){background-color: pink;}
     .like_onebox:nth-of-type(4){background-color: yellow;}
     .like_onebox:nth-of-type(5){background-color:blue;}
 
-    .like_onebox:first-of-type img {}
-    .like_onebox:nth-of-type(2) img {}
-    .like_onebox:nth-of-type(3) img {}
-    .like_onebox:nth-of-type(4) img {}
-    .like_onebox:nth-of-type(5) img {}
+    .like_onebox:first-of-type img {width:90px; height:90px;}
+    .like_onebox:nth-of-type(2) img {width:120px; height:120px;}
+    .like_onebox:nth-of-type(3) img {width:90px; height:90px;}
+    .like_onebox:nth-of-type(4) img {width:120px; height:120px;}
+    .like_onebox:nth-of-type(5) img {width:90px; height:90px;}
 
-    .one_textbox {width:840px; height:60px; background-color:#fff; border-radius:40px; margin-top:-120px;}
+    .one_textbox {width:800px; height:60px; background-color:#fff; border-radius:40px; margin-top:-90px;}
+    .one_textbox h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:22px;
+                    text-align:center; margin-top:16px; letter-spacing: 1px;}
 
    
