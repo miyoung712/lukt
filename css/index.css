@@ -69,9 +69,9 @@
     .slide_box_two h3 {font-family: "MaruBuri-Regular"; font-size:39px; color:#000; margin-top:145px; float:right; text-align: right; text-transform: uppercase;}
     .slide_box_two h4 {font-family:"S-CoreDream-3Light"; font-size:15px; color:#878686;margin-top:19px; float:right; text-align:right; letter-spacing:1px; line-height:22px;}
 
-    .like_box{width:1200px; height:620px; background-color: orange; margin:0 auto;display:flex; flex-wrap:wrap; justify-content: center; align-content: center;}
+    .like_box{width:1200px; height:620px; background-color: orange; margin:0 auto;display:flex; flex-wrap:wrap; justify-content: center; align-content: center; margin-top:10px;}
  
-    .like_box h3 {font-family: "MaruBuri-Regular"; color:#000; font-size:47px; text-align:center;width:100%; height:100px; margin-top:10px;}  
+    .like_box h3 {font-family: "MaruBuri-Regular"; color:#000; font-size:47px; text-align:center;width:100%; height:100px; margin-top:-15px;}  
     .like_box h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:29px; text-align:center; width:100%; height:80px; margin-top:-30px;}
 
     .one_box {width:100%;height:300px;display:flex; justify-content: center; align-content: center;}
@@ -83,11 +83,13 @@
     .like_onebox:nth-of-type(4){background-color: yellow;}
     .like_onebox:nth-of-type(5){background-color:blue;}
 
-    .like_onebox:first-of-type img {width:90px; height:90px; margin:27px 0 0 27px;}
-    .like_onebox:nth-of-type(2) img {width:110px; height:110px; margin:20px 0 0 20px;}
-    .like_onebox:nth-of-type(3) img {width:90px; height:90px; margin:29px 0 0 33px;}
-    .like_onebox:nth-of-type(4) img {width:120px; height:120px; margin:14px 0 0 16px;}
-    .like_onebox:nth-of-type(5) img {width:90px; height:90px; margin:28px 0 0 31px;}
+    .like_onebox:first-of-type img {width:90px; height:90px; margin:26px 0 0 27px;}
+    .like_onebox:nth-of-type(2) img {width:110px; height:110px; margin:18px 0 0 20px;}
+    .like_onebox:nth-of-type(3) img {width:90px; height:90px; margin:29px 0 0 31px;}
+    .like_onebox:nth-of-type(4) img {width:120px; height:120px; margin:13px 0 0 15px;}
+    .like_onebox:nth-of-type(5) img {width:90px; height:90px; margin:28px 0 0 30px;}
+
+    .like_onebox img:hover {cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
 
     .one_textbox {width:800px; height:60px; background-color:#fff; border-radius:40px; margin-top:-90px;}
     .one_textbox h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:22px;
