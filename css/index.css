@@ -83,11 +83,11 @@
     .like_onebox:nth-of-type(4){background-color: yellow;}
     .like_onebox:nth-of-type(5){background-color:blue;}
 
-    .like_onebox:first-of-type img {width:90px; height:90px;}
-    .like_onebox:nth-of-type(2) img {width:120px; height:120px;}
-    .like_onebox:nth-of-type(3) img {width:90px; height:90px;}
-    .like_onebox:nth-of-type(4) img {width:120px; height:120px;}
-    .like_onebox:nth-of-type(5) img {width:90px; height:90px;}
+    .like_onebox:first-of-type img {width:90px; height:90px; margin:27px 0 0 27px;}
+    .like_onebox:nth-of-type(2) img {width:110px; height:110px; margin:20px 0 0 20px;}
+    .like_onebox:nth-of-type(3) img {width:90px; height:90px; margin:29px 0 0 33px;}
+    .like_onebox:nth-of-type(4) img {width:120px; height:120px; margin:14px 0 0 16px;}
+    .like_onebox:nth-of-type(5) img {width:90px; height:90px; margin:28px 0 0 31px;}
 
     .one_textbox {width:800px; height:60px; background-color:#fff; border-radius:40px; margin-top:-90px;}
     .one_textbox h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:22px;
