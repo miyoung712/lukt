@@ -52,6 +52,54 @@
         });
   // 두번째 (세번째 배너) 슬라이드
 
+
+  // 좋아하는 맛을 골라보세요
+
+     $(function(){
+         $('.like_onebox:first-of-type img(1)').click(function() {
+            $('.one_textbox1').fadeIn();
+            $('.one_textbox2').hide();
+            $('.one_textbox3').hide();
+            $('.one_textbox4').hide();
+            $('.one_textbox5').hide();
+         });
+
+         $('.like_onebox:nth-of-type img(2)').click(function() {
+             $('.one_textbox2').fadeIn();
+             $('.one_textbox1').hide();
+             $('.one_textbox3').hide();
+             $('.one_textbox4').hide();
+             $('.one_textbox5').hide();
+         });
+
+         $('.like_onebox:nth-of-type img(3)').click(function() {
+             $('.one_textbox3').fadeIn();
+             $('.one_textbox1').hide();
+             $('.one_textbox2').hide();
+             $('.one_textbox4').hide();
+             $('.one_textbox5').hide();
+         });
+         
+         $('.like_onebox:nth-of-type img(4)').click(function() {
+             $('.one_textbox4').fadeIn();
+             $('.one_textbox1').hide();
+             $('.one_textbox2').hide();
+             $('.one_textbox3').hide();
+             $('.one_textbox5').hide();
+         });
+       
+         $('.like_onebox:nth-of-type img(5)').click(function() {
+             $('.one_textbox5').fadeIn();
+             $('.one_textbox1').hide();
+             $('.one_textbox2').hide();
+             $('.one_textbox3').hide();
+             $('.one_textbox4').hide();
+         });
+        });
+
+  // 좋아하는 맛을 골라보세요
+
+
    </script>
     
 
@@ -169,8 +217,7 @@
        </div>
     </div>
 
-    <div class=like_box>
-        <img src="img/like_bg.jpg" alt="">
+    <div class="like_box">
         <h3>What Flavor Do You Like?</h3>
         <h4>Choose Your Favorite Flavor</h4>
 
@@ -195,19 +242,37 @@
                 <img src="img/icon/icon_5.png" alt="">
             </div>
        </div>
-      <div class="one_textbox">
-          <h4>Sugar-free rose raspberry will add a luxurious taste to yogurt</h4>
+
+        <div class="one_textbox">
+            <h4>Sugar-free rose raspberry will add a luxurious taste to yogurt</h4>
         </div>
-   </div>
+
+        <div class="one_textbox">
+            <h4>You can feel the taste of peanut butter, which has so many enthusiasts</h4>
+        </div>
+
+        <div class="one_textbox">
+            <h4>It's a yogurt bowl where you can enjoy blueberries in a luxurious and rich way</h4>
+        </div>
+
+        <div class="one_textbox">
+            <h4>It's a luxurious natural sweet acacia honey yogurt bow</h4>
+        </div>
+        
+        <div class="one_textbox">
+            <h4>It's an apple stick with more than 80% of apples ground and cinnamon</h4>
+        </div>
+     </div>
+
+     <div class="icelandic_box">
+         <h1>Icelandic Yogurt</h1>
+         <p>Enjoy the soft Icelandic yogurt</p>
+         <div class="ice_box">
+             <h5></h5>
+         </div>
 
 
-
-
-
-
-
-
-
+     </div>
 
 
 
