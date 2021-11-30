@@ -56,44 +56,45 @@
   // 좋아하는 맛을 골라보세요
 
      $(function(){
-         $('.like_onebox:first-of-type img(1)').click(function() {
-            $('.one_textbox1').fadeIn();
-            $('.one_textbox2').hide();
-            $('.one_textbox3').hide();
-            $('.one_textbox4').hide();
-            $('.one_textbox5').hide();
+       
+         $('.like_onebox:first-of-type').click(function() {
+            $('.one_textbox:nth-of-type(2)').fadeIn();
+            $('.one_textbox:nth-of-type(3)').hide();
+            $('.one_textbox:nth-of-type(4)').hide();
+            $('.one_textbox:nth-of-type(5)').hide();
+            $('.one_textbox:nth-of-type(6)').hide();
          });
 
-         $('.like_onebox:nth-of-type img(2)').click(function() {
-             $('.one_textbox2').fadeIn();
-             $('.one_textbox1').hide();
-             $('.one_textbox3').hide();
-             $('.one_textbox4').hide();
-             $('.one_textbox5').hide();
+         $('.like_onebox:nth-of-type(2)').click(function() {
+             $('.one_textbox:nth-of-type(3)').fadeIn();
+             $('.one_textbox:nth-of-type(2)').hide();
+             $('.one_textbox:nth-of-type(4)').hide();
+             $('.one_textbox:nth-of-type(5)').hide();
+             $('.one_textbox:nth-of-type(6)').hide();
          });
 
-         $('.like_onebox:nth-of-type img(3)').click(function() {
-             $('.one_textbox3').fadeIn();
-             $('.one_textbox1').hide();
-             $('.one_textbox2').hide();
-             $('.one_textbox4').hide();
-             $('.one_textbox5').hide();
+         $('.like_onebox:nth-of-type(3)').click(function() {
+             $('.one_textbox:nth-of-type(4)').fadeIn();
+             $('.one_textbox:nth-of-type(2)').hide();
+             $('.one_textbox:nth-of-type(3)').hide();
+             $('.one_textbox:nth-of-type(5)').hide();
+             $('.one_textbox:nth-of-type(6)').hide();
          });
          
-         $('.like_onebox:nth-of-type img(4)').click(function() {
-             $('.one_textbox4').fadeIn();
-             $('.one_textbox1').hide();
-             $('.one_textbox2').hide();
-             $('.one_textbox3').hide();
-             $('.one_textbox5').hide();
+         $('.like_onebox:nth-of-type(4)').click(function() {
+             $('.one_textbox:nth-of-type(5)').fadeIn();
+             $('.one_textbox:nth-of-type(2)').hide();
+             $('.one_textbox:nth-of-type(3)').hide();
+             $('.one_textbox:nth-of-type(4)').hide();
+             $('.one_textbox:nth-of-type(6)').hide();
          });
        
-         $('.like_onebox:nth-of-type img(5)').click(function() {
-             $('.one_textbox5').fadeIn();
-             $('.one_textbox1').hide();
-             $('.one_textbox2').hide();
-             $('.one_textbox3').hide();
-             $('.one_textbox4').hide();
+         $('.like_onebox:nth-of-type(5)').click(function() {
+             $('.one_textbox:nth-of-type(6)').fadeIn();
+             $('.one_textbox:nth-of-type(2)').hide();
+             $('.one_textbox:nth-of-type(3)').hide();
+             $('.one_textbox:nth-of-type(4)').hide();
+             $('.one_textbox:nth-of-type(5)').hide();
          });
         });
 
@@ -266,7 +267,7 @@
 
      <div class="icelandic_box">
          <h1>Icelandic Yogurt</h1>
-         <p>Enjoy the soft Icelandic yogurt</p>
+         <p>Enjoy the soft Icelandic yogurt at home</p>
          <div class="ice_box">
              <h5></h5>
          </div>
