@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/index.css">
 
 
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 
 
     <!-- 카테고리 네비 메뉴바 -->
@@ -26,10 +26,11 @@
 
 
     // 두번째 (세번째 배너) 슬라이드
-   function prev() {
+    $(function(){
+        function prev() {
         $('.slide_box_two:last').prependTo('.slide_wrap_two');
         $('.slide_wrap_two').css('margin-left',-1200);
-        $('slide_wrap_two').stop().animate({marginLeft:0},800);
+        $('.slide_wrap_two').stop().animate({marginLeft:0},800);
     }
     function next() {
         $('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
@@ -44,12 +45,14 @@
         });
     }
     setInterval(slide,3000);
-        $('.prev').click(function (){
+        $('.two_prev').click(function (){
         prev();
         });
-        $('.slide_box_two').click(function(){
+        $('.two_next').click(function(){
         next();
-        });
+        });        
+    });
+   
   // 두번째 (세번째 배너) 슬라이드
 
 
@@ -265,6 +268,8 @@
         </div>
      </div>
 
+
+     <div class="icelandic">
      <div class="icelandic_box">
          <h1>Icelandic Yogurt</h1>
          <p>Enjoy the soft Icelandic yogurt at home</p>
@@ -273,7 +278,8 @@
          </div>
 
 
-     </div>
+      </div>
+    </div>
 
 
 

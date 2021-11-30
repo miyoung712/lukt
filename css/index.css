@@ -52,12 +52,11 @@
     .slide_wrap_two {width:3600px; height:500px; background-color: #3d5bb3; margin:0 auto;}
     .slide_box_two {width:1200px; height:500px; background-color: #fcfbf7; margin:0px auto 0; display:flex; justify-content: space-between;  align-items: center; float:left;}
 
-    .slide_box_two span{position: absolute; top:50%; display:block; font-size:38px;
-                        color:#fff; line-height: 40px; background-color: #ccc4a5; cursor:pointer; width:50px; height:50px; transform: translateY(-50%)
-                        ;}
+    .slide_box_two span{position: absolute; top:50%; display:block; font-size:40px;
+                        color:#fff; line-height:20px; background-color: #ccc4a5; cursor:pointer; width:45px; height:50px; transform: translateY(-50%);}
 
-    .two_prev {left:0; border-radius: 0 10px 10px 0px; padding:10px;}
-    .two_next {right:0; border-radius: 10px 0px 0px 10px; padding:10px;}
+    .two_prev {left:0; border-radius: 0 10px 10px 0px; padding:10px 7px;}
+    .two_next {right:0; border-radius: 10px 0px 0px 10px; padding:10px 12px;}
 
     .slide_box_two span:hover {background-color:#d8d8d8; color:#fff;}                
     .slide_box_two:first-of-type img {width:662px; height:500px; }
@@ -87,20 +86,23 @@
 
     .like_onebox img:hover {cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
 
-    .one_textbox { background-color:#fff; border-radius:40px; margin-top:-90px;display:none; text-align:center;}
+    .one_textbox { background-color:#fff; border-radius:40px; margin-top:-90px;display:none; text-align:center; position:relative;}    
     
     .one_textbox h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:20px;
                     text-align:center; margin-top:17px; letter-spacing: 1px; text-align:center;}
-   .one_textbox:nth-of-type(2) {width:710px; height:62px; display:block;}  
+   .one_textbox:nth-of-type(2) {width:880px; height:62px; display:block;}  
    .one_textbox:nth-of-type(3) {width:810px; height:62px;} 
-   .one_textbox:nth-of-type(4) {width:900px; height:62px;} 
-   .one_textbox:nth-of-type(5) {width:650px; height:62px;} 
-   .one_textbox:nth-of-type(6) {width:800px; height:62px;} 
+   .one_textbox:nth-of-type(4) {width:880px; height:62px;} 
+   .one_textbox:nth-of-type(5) {width:670px; height:62px;} 
+   .one_textbox:nth-of-type(6) {width:890px; height:62px;} 
 
-
-  /* .one_textbox:nth-of-type(2)::before {width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid pink;} */
-
-      
+   .one_textbox::after {content: ''; position: absolute;top: 0; width: 0; height: 0; border: 26px solid transparent; border-bottom-color: #fff; border-top: 0; margin-left: -25px; margin-top: -25px;}
+   
+   .one_textbox:nth-of-type(2)::after {left: 9%;}
+   .one_textbox:nth-of-type(3)::after {left: 28%;}
+   .one_textbox:nth-of-type(4)::after {left: 50%;}
+   .one_textbox:nth-of-type(5)::after {left: 77%;}
+   .one_textbox:nth-of-type(6)::after {left: 90%;}
 
    .icelandic {width:100%; height:1000px; background-color:#badef2;}
    .icelandic_box {width:1200px; height:1000px; background-color:#badef2; margin:0 auto; }
