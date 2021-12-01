@@ -21,7 +21,7 @@
    .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#ea5f54; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
    .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
 
-    section {width:100%; height:3000px; margin:0 auto; background-color:none;}
+    section {width:100%; height:3800px; margin:0 auto; background-color:none;}
 
    .two_box {width:100%; height:230px; background-color:#fbe8e4;}
 
@@ -45,8 +45,9 @@
     .two_y_box span:first-of-type {font-family: 'MaruBuri-Regular'; font-size:20px; color:#454444; letter-spacing: 1px; top:22%; left:31%;}
     .two_y_box span:nth-of-type(2) {font-family: 'MaruBuri-Regular'; font-size:20px; color:#454444; letter-spacing: 1px; top:22%; left:30%;}
 
-    .two_y_box img:first-of-type {width:280px; height:280px; position: absolute; top:37%; left:10%; }
-    .two_y_box img:nth-of-type(2) {width:280px; height:280px; position: absolute; top:37%; right:10%;}
+    .two_y_box img:first-of-type {width:280px; height:280px; position: absolute; top:42%; left:10%; }
+    .two_y_box img:nth-of-type(2) {width:280px; height:280px; position: absolute; top:42%; right:10%;}
+    .two_y_box img:hover {transform: translateY(-20px); transition: all 0.4s ease-in-out;}
 
     .slider_two {width:1200px; height:500px; background-color: #eee; margin:330px auto 0; position:relative; overflow:hidden; }
     .slide_wrap_two {width:3600px; height:500px; background-color: #3d5bb3; margin:0 auto;}
@@ -104,20 +105,38 @@
    .one_textbox:nth-of-type(5)::after {left: 77%;}
    .one_textbox:nth-of-type(6)::after {left: 90%;}
 
-   .icelandic {width:100%; height:1000px; background-color:#badef2;}
+   .icelandic {width:100%; height:800px; background-color:#badef2;}
    .icelandic_box {width:1200px; height:1000px; background-color:#badef2; margin:0 auto;}
    .icelandic_box h1 {font-family: "MaruBuri-Regular"; color:#FFF; font-size:43px; text-align:center; 
                     letter-spacing:1px; padding-top:90px; letter-spacing:2px;}
    .icelandic_box p {font-family: "MaruBuri-Regular"; color:#FFF; font-size:27px; text-align:center; 
                     letter-spacing:1px; padding-top:8px}
 
-   .ice_bigbox {width:1200px; height:420px; display:flex; justify-content: space-between; margin-top:55px;}               
+   .ice_bigbox {width:1200px; height:420px; display:flex; justify-content: space-between; margin-top:55px; background-color: #badef2;}
+   
+   .ice_box {width:388px; height:420px; border-radius:35px;border:5px solid #fff; position:relative; overflow:hidden;}
 
-   .ice_box:first-of-type {width:388px; height:420px; border-radius:35px; background:url(../img/Icelandic_y_1.jpg); background-size:100% 100%; background-color: #badef2; border:5px solid #fff;}
-   .ice_box:nth-of-type(2) {width:388px; height:420px; border-radius:35px; background:url(../img/Icelandic_y_2.jpg) no-repeat; background-size:cover;    background-color: #badef2; border:5px solid #fff;}  
-   .ice_box:nth-of-type(3) {width:388px; height:420px; border-radius:35px; background:url(../img/Icelandic_y_3.jpg); background-size:100% 100%; background-color: #badef2; border:5px solid #fff;}
+   .ice_box:first-of-type { background:url(../img/Icelandic_y_1.jpg); background-size:100% 100%;  }
+   .ice_box:nth-of-type(2) { background:url(../img/Icelandic_y_2.jpg) no-repeat; background-size:cover;  }  
+   .ice_box:nth-of-type(3) { background:url(../img/Icelandic_y_3.jpg); background-size:100% 100%; }
+
+   .ice_textbox {width:100%; height:100%; position:absolute; top:0; left:0; background-color: #000; opacity:0;}
+
+   .ice_textbox:hover {opacity:0.4; transition: all 0.7s ease; transform: translateY(-13%);}
 
    .ice_bigbox h5 {font-family: "MaruBuri-Regular"; color:#FFF; font-size:28px; text-align:center; 
         letter-spacing:1px;  margin-top:280px;}
    .ice_bigbox p {font-family: "MaruBuri-Regular"; color:#FFF; font-size:22px; text-align:center; 
         letter-spacing:1px;  letter-spacing: 1px;}
+
+   .topping {width:100%; height:230px; background-color: #3d5bb3; margin:0 auto; }
+   .topping_box {width:1200px; height:750px; background-color: #ea5f54; margin:0 auto; }
+
+
+
+
+
+.two_yogurtbox {width:1200px; height:550px; margin: 0 auto; display:flex; flex-direction: row;}
+.two_y_box:first-of-type {width:376px; height:550px; background-color:#fff; border-radius: 50px 50px 0px 0px; margin-right:10px; position:relative;}
+
+.two_y_box:nth-of-type(2) {width:814px; height:550px; background-color:#fff; border-radius:50px 50px 0px 0px; position:relative; flex-wrap: wrap;}
