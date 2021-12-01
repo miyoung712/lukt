@@ -47,7 +47,7 @@
 
     .two_y_box img:first-of-type {width:290px; height:280px; position: absolute; top:41%; left:10%; }
     .two_y_box img:nth-of-type(2) {width:290px; height:280px; position: absolute; top:41%; right:10%;}
-    .two_y_box img:hover {transform: translateY(-20px); transition: all 0.4s ease-in-out;}
+    .two_y_box img:hover {transform: translateY(-20px); transition: all 0.3s ease-in-out;}
 
     .slider_two {width:1200px; height:500px; background-color: #eee; margin:330px auto 0; position:relative; overflow:hidden; }
     .slide_wrap_two {width:3600px; height:500px; background-color: #3d5bb3; margin:0 auto;}
@@ -149,7 +149,7 @@
   
    .topping_p_box img:hover {cursor:pointer; transform: translateY(-20px); transition: all 0.4s ease-in-out;}
 
-   .topping_btn {font-family:"S-CoreDream-5Medium"; font-size:14px; width:170px; height:60px; border-radius:50px; color:#fff; transform:translate(-50%, -50%); background-color:#212121; cursor:pointer; border:0; transform: scale(1.0); transition:0.3s; margin-top:20px;}
+   .topping_btn {font-family:"S-CoreDream-5Medium"; font-size:14px; width:170px; height:70px; border-radius:50px; color:#fff; transform:translate(-50%, -50%); background-color:#212121; cursor:pointer; border:0; transform: scale(1.0); transition:0.3s; margin-top:20px;}
    .topping_btn:nth-of-type(2) {margin-top:-100px;}
 
    .topping_btn:hover {background-color:#878686; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
