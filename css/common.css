@@ -157,10 +157,11 @@
 
     .keep_search_box {box-sizing:border-box;} 
     .keep_search_box input[type=text] {
-        padding:10px; font-size:17px; float:left; width:500px; border:0; background:#f1f1f1;
-        border-radius:8px;}
-    .keep_search_box button { float:left; width:90px; padding:12px; background:#000;
-            color:#fff; font-size:15px; border:0; border-left:none; cursor:pointer; border-radius:8px; margin-left:-30px;}
+        height:50px; font-size:12px; float:left; width:500px; border:0; background:#f1f1f1;
+        border-radius:8px; margin-top:20px;}
+    .keep_search_box button { font-family:"S-CoreDream-4Regular";  
+        float:left; width:95px; height:50px;  background:#000;
+            color:#fff; font-size:15px; border:0; border-left:none; cursor:pointer; border-radius:7px; margin-left:-50px; margin-top:20px;}
     .keep_search_box button:hover {background:#f05250;}     
     .keep_search_box::after{content:""; clear:both; display:table;}       
 
