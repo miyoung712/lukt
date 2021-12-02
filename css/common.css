@@ -133,3 +133,29 @@
     #b { font-family: 'BMDOHYEON';}
     img {cursor:pointer;}
    }
+
+    footer {width:100%; height: 520px; margin:0 auto; background-color:#e4e4e4;
+             background-image:linear-gradient(to bottom right,#e4e4e4,#d6dee2,#c5dbe7);}
+    .f_box {width:1200px; height:520px; background-color: lightpink; margin:0 auto; 
+            display:flex; justify-content: center;}
+
+
+    /* 하단 왼쪽 */
+    .f_l_box {width:600px; height:510px; background-color: lightsalmon;}
+   
+    .keep_box {width:590px; height:200px; background-color: #e4e4e4;}
+    .keep_box h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; color:#000; letter-spacing:1px; margin-top:10px;}
+
+    .f_icon {width:400px; height:80px; background-color: aqua;}
+    .f_customer {width:400px; height:200px; background-color:#818185;}
+
+    /* 하단 왼쪽 */
+    
+ 
+    /* 하단 오른쪽 */
+    .f_r_box {width:600px; height:510px; background-color: red;}
+    .company {width:200px; height:300px; background-color: #666;}
+
+
+
+    /* 하단 오른쪽 */

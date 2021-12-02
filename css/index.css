@@ -21,7 +21,7 @@
    .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#ea5f54; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
    .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
 
-    section {width:100%; height:3800px; margin:0 auto; background-color:none;}
+    section {width:100%; height:3250px; margin:0 auto; background-color:none;}
 
    .two_box {width:100%; height:230px; background-color:#fbe8e4;}
 
@@ -141,9 +141,9 @@
    .topping_p_box:nth-of-type(2) {width:400px; height:600px; background-color: #fff;}
    .topping_p_box:nth-of-type(3) {width:400px; height:600px; background-color: #fff;}
 
-   .topping_p_box h3 {font-family: 'MaruBuri-Regular'; font-size:32px; color:#3d5bb3; 
+   .topping_p_box h3 {font-family: 'MaruBuri-Regular'; font-size:30px; color:#3d5bb3; 
                       padding-top:70px; text-align:center;}
-   .topping_p_box h4 { font-family: 'MaruBuri-Regular'; font-size:17px; 
+   .topping_p_box h4 { font-family: 'MaruBuri-Regular'; font-size:16px; 
                        color:#595959; letter-spacing: 1px; text-align:center; padding-top:5px}
    .topping_p_box img {width:240px; height:280px; margin-top:31px;}
   
@@ -154,6 +154,6 @@
 
    .topping_btn:hover {background-color:#878686; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
 
-   .topping_border {width:100%; height:343px; border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; display:flex; flex-direction: column; align-items: center;}
+   .topping_border {width:100%; height:343px; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; display:flex; flex-direction: column; align-items: center;}
 
                     
