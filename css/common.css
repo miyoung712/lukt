@@ -142,61 +142,116 @@
    }
 
 
-    footer {width:100%; height: 520px; margin:0 auto; background-color:#e4e4e4;
+    footer {width:100%; height: 440px; margin:0 auto; background-color:#e4e4e4;
              background-image:linear-gradient(to bottom right,#e4e4e4,#d6dee2,#c5dbe7);}
-    .f_box {width:1200px; height:520px; background-color: lightpink; margin:0 auto; 
+    .f_box {width:1200px; height:440px; margin:0 auto; 
             display:flex; justify-content: center;}
 
     /* 하단 왼쪽 */
-    .f_l_box {width:600px; height:510px; background-color: lightsalmon;}
+    .f_l_box {width:600px; height:440px;}
    
-    .keep_box {width:590px; height:150px; background-color: #e4e4e4;}
+    .keep_box {width:590px; height:130px;}
     .keep_box h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;    
-                  letter-spacing:1px; margin-top:10px;}
+                  letter-spacing:1px; margin-top:57px;}
 
 
+    /* 검색바 */
     .keep_search_box {box-sizing:border-box;} 
     .keep_search_box input[type=text] {
         height:50px; font-size:12px; float:left; width:500px; border:0; background:#f1f1f1;
-        border-radius:8px; margin-top:20px; padding-left:-20px;}
+        border-radius:8px; margin-top:17px; padding-left:20px;}
     .keep_search_box button { font-family:"S-CoreDream-4Regular";  
-        float:left; width:95px; height:50px;  background:#000;
-            color:#fff; font-size:11px; border:0; border-left:none; cursor:pointer; border-radius:7px; margin-left:-50px; margin-top:20px; letter-spacing: 1px;}
-    .keep_search_box button:hover {background:#f05250;}     
+            float:left; width:100px; height:50px; background:#000;
+            color:#fff; font-size:11px; border:0; border-left:none; 
+            cursor:pointer; border-radius:7px; margin-left:-50px; 
+            margin-top:15px; letter-spacing: 1px;}
+    .keep_search_box button:hover {background:#f05250; transition: 0.3s ease-in-out;}     
     .keep_search_box::after{content:""; clear:both; display:table;}       
+    /* 검색바 */
 
 
-    .f_icon {width:400px; height:80px; background-color: aqua; }
+    /* sns 아이콘 */
+    .f_icon {width:400px; height:55px;}
     .fa-instagram-square:before {
         content: "\e055";
     }
-    .f_icon .fab{color:#fff; font-size:50px; margin:10px;}
-    .f_icon .fab:hover {color:red;}
-    .f_customer {width:600px; height:200px; background-color:green;}
-    .f_customer h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                   letter-spacing:1px; margin-top:10px;}
-    .f_customer p {font-family:"HANBatang"; font-size:14px; color:#000;
-                     padding-top:5px;line-height:19px;}
+    .f_icon .fab{color:#f05250; font-size:35px; margin:0 0 0 20px; }
+    .f_icon .fab:first-of-type {margin-left:2px;}
+    .f_icon .fab:hover {color:#000; cursor:pointer; transform:scale(1.2);
+                        transition: all 0.5s ease-in-out;}
+    /* sns 아이콘 */
+
+
+    .f_customer {width:600px; height:134px; }
+    .f_customer h1 {font-family:"S-CoreDream-4Regular"; font-size:18px; color:#000;
+                   letter-spacing:1px; margin-top:10px; margin-left:3px;}
+    .f_customer p {font-family:"HANBatang"; font-size:13px; color:#000;
+                     padding-top:10px; line-height:17px; margin-left:3px;}
     /* 하단 왼쪽 */
 
     
     /* 하단 오른쪽 */
-    .f_r_box {width:600px; height:510px;
-              display:flex; flex-direction:row;}
-    .company {width:175px; height:450px; }
+    .f_r_box {width:600px; height:440px;
+              display:flex; flex-direction:row; flex-wrap:wrap;}
+    .company {width:175px; height:320px; }
     .company h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                 letter-spacing:1px; margin-top:10px; padding-left:40px;}
+                 letter-spacing:1px; margin-top:57px; padding-left:38px;}
     .company p {font-family:"GyeonggiBatang"; font-size:17px; color:#000;
-                padding-top:5px; padding-left:40px;line-height:25px;}
-    .customer_care {width:220px; height:450px; ;}
+                padding-top:15px; padding-left:40px;line-height:25px;}
+    .customer_care {width:220px; height:320px;}
     .customer_care h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                      letter-spacing:1px; margin-top:10px; padding-left:20px;}
+                      letter-spacing:1px; margin-top:57px; padding-left:20px;}
     .customer_care p {font-family:"GyeonggiBatang"; font-size:17px; color:#000;
-                      padding-top:5px; padding-left:20px;line-height:25px;}
-    .shop {width:200px; height:450px; ;}
+                      padding-top:15px; padding-left:20px;line-height:25px;}
+    .shop {width:200px; height:320px;}
     .shop h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-             letter-spacing:1px; margin-top:10px; padding-left:20px;}
+             letter-spacing:1px; margin-top:57px; padding-left:20px;}
     .shop p {font-family:"GyeonggiBatang"; font-size:17px; color:#000;
-             padding-top:5px; padding-left:20px; line-height:25px; }
+             padding-top:15px; padding-left:20px; line-height:25px; }
+
+    .copyright_box {width:600px; height:30px;  margin-top:-30px;}
+    .copyright_box span {font-family:"S-CoreDream-4Regular"; font-size:11px; color:#616161;
+                         margin-left:190px; letter-spacing: 1px;}
 
     /* 하단 오른쪽 */
+
+    .btn_slide{
+        padding: 10px 80px;
+        margin:5px 4px;
+        color: #000;
+
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        display:inline-block;
+        
+      }
+
+    .btn_slide::before {
+        content: '';
+        position: absolute;
+        bottom: 0%;
+        left: 0px;
+        width: 80%;
+        height: 2px;
+        background: #6098FF;
+        display: block;
+        -webkit-transform-origin: right top;
+        -ms-transform-origin: right top;
+        transform-origin: right top;
+        -webkit-transform: scale(0, 1);
+        -ms-transform: scale(0, 1);
+        transform: scale(0, 1);
+        -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+        transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+      }
+      
+      .btn_slide:hover::before {
+        -webkit-transform-origin: left top;
+        -ms-transform-origin: left top;
+        transform-origin: left top;
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
+      }
