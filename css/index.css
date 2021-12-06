@@ -6,20 +6,56 @@
 
    #slider{width:100%; height:700px; background-color:#fbe8e4;}
 
-   .slide_wrap
+   .slide_wrap {width: 1200px; height: 700px; margin: 0px auto; position: relative; overflow: hidden;}
 
-   .main_slide { width:1200px; height:700px; background-color:#fbe8e4; margin: 0 auto; position:relative;}
-   .main_slide h1 { font-family:"yg-jalnan"; font-size:95px; text-align:center; 
-               text-transform: uppercase; color:#fff; padding-top:105px; line-height:100px;}
-   .main_slide h3 { font-family:"HANBatang"; font-size:25px; text-align:center; color:#ea5f54; letter-spacing:1px; margin-top:40px; line-height:30px;}
+    /* 첫번째 메인 슬라이드 */
+    .main_slide_1 { width:1200px; height:700px; background-color:#fbe8e4; margin: 0 auto; position:relative;}
+    .main_slide_1 h1 { font-family:"yg-jalnan"; font-size:95px; text-align:center; 
+                text-transform: uppercase; color:#fff; padding-top:105px; line-height:100px;}
+    .main_slide_1 h3 { font-family:"HANBatang"; font-size:25px; text-align:center; color:#ea5f54; letter-spacing:1px; margin-top:40px; line-height:30px;}
+  
+    .main_slide_1 img:first-child {width:197px; height:244px; position: absolute; top:20px; right:26px;}
+    .main_slide_1 img:nth-child(2)  {width:156px; height:189px;  position: absolute; top:240px; left:15px;}
+    .main_slide_1 img:nth-child(3) {width:335px; height:332px;  position: absolute; bottom:108px; left:70px;}
+    .main_slide_1.main_slide_box img:nth-child(4)  {width:160px; height:143px;  position: absolute; bottom:68px; left:53px;}
  
-   .main_slide_box img:first-child {width:197px; height:244px; position: absolute; top:20px; right:26px;}
-   .main_slide_box img:nth-child(2)  {width:156px; height:189px;  position: absolute; top:240px; left:15px;}
-   .main_slide_box img:nth-child(3) {width:335px; height:332px;  position: absolute; bottom:108px; left:70px;}
-   .main_slide_box img:nth-child(4)  {width:160px; height:143px;  position: absolute; bottom:68px; left:53px;}
+    .main_slide_1 .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#ea5f54; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
+    .main_slide_1 .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
+     /* 첫번째 메인 슬라이드 */
+ 
+  
+ 
+     /* 두번째 메인 슬라이드 */
+     .main_slide_2 { width:1200px; height:700px; background-color:#fdefc2; margin: 0 auto; position:relative;}
+     .main_slide_2 h1 { font-family:"yg-jalnan"; font-size:95px; text-align:center; 
+                 text-transform: uppercase; color:#fff; padding-top:105px; line-height:100px;}
+     .main_slide_2 h3 { font-family:"HANBatang"; font-size:25px; text-align:center; color:#f0b119; letter-spacing:1px; margin-top:40px; line-height:30px;}
+ 
+     .main_slide_2 img:first-child {width:548px; height:375px; position: absolute; top:262px; right:55px;}
+     .main_slide_2 img:nth-child(2)  {width:335px; height:342px;  position: absolute; top:253px; left:50px;}
+     .main_slide_2 img:nth-child(3) {width:70px; height:45px;  position: absolute; top:90px; left:110px;}
+ 
+     .main_slide_2 .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#f0b119; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
+     .main_slide_2 .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
+     /* 두번째 메인 슬라이드 */
+ 
+ 
 
-   .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#ea5f54; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
-   .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
+     /* 세번째 메인 슬라이드 */
+     .main_slide_3 { width:1200px; height:700px; background-color:#e6e3db; margin: 0 auto; position:relative;}
+     .main_slide_3 h1 { font-family:"yg-jalnan"; font-size:95px; text-align:center; 
+                 text-transform: uppercase; color:#fff; padding-top:105px; line-height:100px;}
+     .main_slide_3 h3 { font-family:"HANBatang"; font-size:25px; text-align:center; color:#908975; letter-spacing:1px; margin-top:40px; line-height:30px;}
+ 
+     .main_slide_3 img:first-child {width:88px; height:54px; position: absolute; top:68px; left:508px;}
+     .main_slide_3 img:nth-child(2)  {width:335px; height:342px;  position: absolute; top:280px; left:50px;}
+     .main_slide_3 img:nth-child(3) {width:187px; height:118px;  position: absolute; bottom:63px; left:390px;}
+     .main_slide_3 img:nth-child(4) {width:437px; height:246px;  position: absolute; bottom:71px; right:112px;}
+     
+     .main_slide_3 .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#908975; margin:140px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
+     .main_slide_3 .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
+     /* 세번째 메인 슬라이드 */
+
 
     section {width:100%; height:3250px; margin:0 auto; background-color:none;}
 

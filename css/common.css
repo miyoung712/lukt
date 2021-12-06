@@ -216,6 +216,8 @@
 
     /* 하단 오른쪽 */
 
+    
+    /* 하단 슬라이드 바 */
     .btn_slide{
         padding: 1px 1px;
         margin: -1px 0px;
@@ -259,3 +261,4 @@
         -ms-transform: scale(1, 1);
         transform: scale(1, 1);
       }
+      /* 하단 슬라이드 바 */
