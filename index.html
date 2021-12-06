@@ -30,27 +30,27 @@
 
     $(function(){
         function prev() {
-        $('.main_slide_3:last').prependTo('.slide_wrap');
-        $('.main_slide_1').css('margin-left',-1200);
-        $('.main_slide_2').stop().animate({marginLeft:0},800);
+        $('.list:last').prependTo('.slide');
+        $('.slide').css('margin-left',-1200);
+        $('.slide').stop().animate({marginLeft:0},800);
     }
     function next() {
-        $('.main_slide_2').stop().animate({marginLeft:-1200}, 800,function () {
-        $('.main_slide_1:first').appendTo('.slide_wrap');
-        $('.main_slide_3').css({marginLeft:0});
+        $('.slide').stop().animate({marginLeft:-1200}, 800,function () {
+        $('.list:first').appendTo('.slide');
+        $('.slide').css({marginLeft:0});
         });
     }
     function slide(){
-        $('.main_slide_3').stop().animate({marginLeft:-1200}, 800,function () {
-        $('.main_slide_1:first').appendTo('.slide_wrap');
-        $('.main_slide_2').css({marginLeft:0});
+        $('.slide').stop().animate({marginLeft:-1200}, 800,function () {
+        $('.list:first').appendTo('.slide');
+        $('.slide').css({marginLeft:0});
         });
     }
-    setInterval(slide,3000);
-        $('.two_prev').click(function (){
+    setInterval(slide,4000);
+        $('.main_prev').click(function (){
         prev();
         });
-        $('.two_next').click(function(){
+        $('.main_next').click(function(){
         next();
         });        
     });
@@ -80,10 +80,10 @@
         });
     }
     setInterval(slide,3000);
-        $('.two_prev').click(function (){
+        $('.main_prev').click(function (){
         prev();
         });
-        $('.two_next').click(function(){
+        $('.main_next').click(function(){
         next();
         });        
     });
@@ -176,50 +176,57 @@
 <body>
     <div id="slider">
         <div class="slide_wrap">
-            <div class="main_slide_1">
-                <h1>Peanut Butter<br>Raspberry Mild</h1>
-                <h3>Yogurt ball, a gourmet combination that shows PB&J<br>
-                    with American flavor,<br>
-                    based on Look2's interpretation</h3>
-                <button class="main_btn_s">VIEW PRODUCT</button>
-
+    
+            <span class="main_prev">&lt;</span>
+            <span class="main_next">&gt;</span>
+    
+            <div class="slide">
+    
+                <div class="main_slide_1 list">
+                    <h1>Peanut Butter<br>Raspberry Mild</h1>
+                    <h3>Yogurt ball, a gourmet combination that shows PB&J<br>
+                        with American flavor,<br>
+                        based on Look2's interpretation</h3>
+                    <button class="main_btn_s">VIEW PRODUCT</button>
+    
                     <div class="main_slide_box">
-                    <a href="#"><img src="img/raspberry_r.png" alt=""></a>
-                    <img src="img/flower.png" alt="">
-                    <img src="img/main/main_raspberry.png" alt="">
-                    <img src="img/raspberry_l.png" alt="">
-                   </div>
-            </div>
-
-
-            <div class="main_slide_2">
-                <h1>Honey granolat<br>High protein Thick</h1>
-                <h3>A nice meal<br>
-                    with high protein yogurt,<br>
-                    granola, and honey</h3>
-                <button class="main_btn_s">VIEW PRODUCT</button>
-
-                    <div class="main_slide_box">
-                     <img src="img/honey.png" alt="">
-                    <img src="img/main/main_honey.png" alt="">
-                    <img src="img/honeybee.png" alt="">
+                        <a href="#"><img src="img/raspberry_r.png" alt=""></a>
+                        <img src="img/flower.png" alt="">
+                        <img src="img/main/main_raspberry.png" alt="">
+                        <img src="img/raspberry_l.png" alt="">
                     </div>
-            </div>
-
-            <div class="main_slide_3">
-                <h1>Peanut butter<br>honey mild</h1>
-                <h3>Yogurt ball with thick<br>
-                    peanut butter and sweet honey</h3>
-                <button class="main_btn_s">VIEW PRODUCT</button>
-
+                </div>
+    
+    
+                <div class="main_slide_2 list">
+                    <h1>Honey granolat<br>High protein Thick</h1>
+                    <h3>A nice meal<br>
+                        with high protein yogurt,<br>
+                        granola, and honey</h3>
+                    <button class="main_btn_s">VIEW PRODUCT</button>
+    
                     <div class="main_slide_box">
-                     <img src="img/peanut_t.png" alt="">
-                    <img src="img/main/main_peanut_butter.png" alt="">
-                    <img src="img/peanut_b.png" alt="">
-                    <img src="img/peanut.png" alt="">
+                        <img src="img/honey.png" alt="">
+                        <img src="img/main/main_honey.png" alt="">
+                        <img src="img/honeybee.png" alt="">
                     </div>
+                </div>
+    
+                <div class="main_slide_3 list">
+                    <h1>Peanut butter<br>honey mild</h1>
+                    <h3>Yogurt ball with thick<br>
+                        peanut butter and sweet honey</h3>
+                    <button class="main_btn_s">VIEW PRODUCT</button>
+    
+                    <div class="main_slide_box">
+                        <img src="img/peanut_t.png" alt="">
+                        <img src="img/main/main_peanut_butter.png" alt="">
+                        <img src="img/peanut_b.png" alt="">
+                        <img src="img/peanut.png" alt="">
+                    </div>
+                </div>
             </div>
-
+    
         </div>
     </div>
 
