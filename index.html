@@ -55,6 +55,17 @@
         });        
     });
    
+    var bg=["#fbe8e4","#fdefc2","#e6e3db"];
+    var i=0;
+    function chbg(){
+    slider.style.backgroundColor=bg[i];
+    i++;
+    if(i>=bg.length){
+    i=0;
+    }
+    }
+
+    setInterval(chbg,4000);
 
    //  첫번째 메인 슬라이드
 
@@ -80,14 +91,13 @@
         });
     }
     setInterval(slide,3000);
-        $('.main_prev').click(function (){
+        $('.two_prev').click(function (){
         prev();
         });
-        $('.main_next').click(function(){
+        $('.two_next').click(function(){
         next();
         });        
     });
-   
    // 두번째 (세번째 배너) 슬라이드
 
 
@@ -184,9 +194,9 @@
     
                 <div class="main_slide_1 list">
                     <h1>Peanut Butter<br>Raspberry Mild</h1>
-                    <h3>Yogurt ball, a gourmet combination that shows PB&J<br>
+                    <p>Yogurt ball, a gourmet combination that shows PB&J<br>
                         with American flavor,<br>
-                        based on Look2's interpretation</h3>
+                        based on Look2's interpretation</p>
                     <button class="main_btn_s">VIEW PRODUCT</button>
     
                     <div class="main_slide_box">
@@ -200,9 +210,9 @@
     
                 <div class="main_slide_2 list">
                     <h1>Honey granolat<br>High protein Thick</h1>
-                    <h3>A nice meal<br>
+                    <p>A nice meal<br>
                         with high protein yogurt,<br>
-                        granola, and honey</h3>
+                        granola, and honey</p>
                     <button class="main_btn_s">VIEW PRODUCT</button>
     
                     <div class="main_slide_box">
@@ -214,8 +224,8 @@
     
                 <div class="main_slide_3 list">
                     <h1>Peanut butter<br>honey mild</h1>
-                    <h3>Yogurt ball with thick<br>
-                        peanut butter and sweet honey</h3>
+                    <p>Yogurt ball with thick<br>
+                        peanut butter and sweet honey</p>
                     <button class="main_btn_s">VIEW PRODUCT</button>
     
                     <div class="main_slide_box">
@@ -265,8 +275,8 @@
 
                 <div class="slide_two_textbox">
                     <h3>Cinnamon pecan<br>Yogurt ball</h3>
-                    <h4>The savory taste of cinnamon and pecan stands out
-                        Sugar-free granola and low-fat mild yogurt</h4>        
+                    <p>The savory taste of cinnamon and pecan stands out
+                        Sugar-free granola and low-fat mild yogurt</p>        
                 </div>
             </div>
 
@@ -275,9 +285,9 @@
 
                 <div class="slide_two_textbox">
                     <h3>Honey granola<br>Yogurt ball</h3>
-                    <h4>It blends honey and granola gently<br>
+                    <p>It blends honey and granola gently<br>
                         It's popular with kids and men 
-                        A combination<br>that everyone likes and dislikes</h4>      
+                        A combination<br>that everyone likes and dislikes</p>      
                 </div>
             </div>
 
@@ -286,8 +296,8 @@
 
                 <div class="slide_two_textbox">
                     <h3>Lime lemon Thick<br>Yogurt ball</h3>
-                    <h4>It's full of citrus flavors of lime and lemon<br>
-                        A combination of sugar-free<br>granola and high-protein cheese yogurt</h4>      
+                    <p>It's full of citrus flavors of lime and lemon<br>
+                        A combination of sugar-free<br>granola and high-protein cheese yogurt</p>      
                 </div>
             </div>
        </div>

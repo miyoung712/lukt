@@ -196,19 +196,19 @@
     .btn_slide a{font-family:"GyeonggiBatang";}         
     .company {width:175px; height:320px;}
     .company h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                 letter-spacing:1px; margin-top:57px; padding-left:40px;}
+                 letter-spacing:1px; margin-top:57px; padding-left:63px;}
     .company p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
-                padding-top:15px; padding-left:41px; line-height:25px;}
+                padding-top:15px; padding-left:63px; line-height:25px;}
     .customer_care {width:220px; height:330px;}
     .customer_care h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                      letter-spacing:1px; margin-top:57px; padding-left:26px;}
+                      letter-spacing:1px; margin-top:57px; padding-left:44px;}
     .customer_care p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
-                      padding-top:15px; padding-left:26px;line-height:25px;}
+                      padding-top:15px; padding-left:44px; line-height:25px;}
     .shop {width:200px; height:320px;}
     .shop h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-             letter-spacing:1px; margin-top:57px; padding-left:40px;}
+             letter-spacing:1px; margin-top:57px; padding-left:45px;}
     .shop p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
-             padding-top:15px; padding-left:40px; line-height:25px; }
+             padding-top:15px; padding-left:45px; line-height:25px; }
 
     .copyright_box {width:600px; height:30px;  margin-top:-30px;}
     .copyright_box span {font-family:"S-CoreDream-4Regular"; font-size:11px; color:#616161;
