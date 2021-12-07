@@ -28,45 +28,75 @@
 
     //  첫번째 메인 슬라이드
 
-    $(function(){
-        function prev() {
-        $('.list:last').prependTo('.slide');
-        $('.slide').css('margin-left',-1200);
-        $('.slide').stop().animate({marginLeft:0},800);
-    }
-    function next() {
-        $('.slide').stop().animate({marginLeft:-1200}, 800,function () {
-        $('.list:first').appendTo('.slide');
-        $('.slide').css({marginLeft:0});
-        });
-    }
-    function slide(){
-        $('.slide').stop().animate({marginLeft:-1200}, 800,function () {
-        $('.list:first').appendTo('.slide');
-        $('.slide').css({marginLeft:0});
-        });
-    }
-    setInterval(slide,4000);
-        $('.main_prev').click(function (){
-        prev();
-        });
-        $('.main_next').click(function(){
-        next();
-        });        
-    });
+     var i =0;
+
+     function slide() {
+         i ++;
+         if (i > $('.slide .list:last').index()){
+             i = 0;
+         }
+
+         $('.slide .list').eq(i).stop().show('slow');
+         $('.slide .list').eq(i - 1).stop().fadeOut();
+     }
+
+      setInterval(slide,3000);
+
+      var bg=["#fbe8e4","#fdefc2","#e6e3db"];
+      var j = 1;
+
+      function chbg() {
+          slider.style.backgroundColor = bg[i];
+          document.getElementsByClassName('two_box')[0].style.backgroundColor = bg[i];
+          j++;
+          if (i >= bg.length) {
+              j = 0;
+          }
+      }
+      setInterval(chbg,3000);
+
+
+
+    // $(function(){
+    //     function prev() {
+    //     $('.list:last').prependTo('.slide');
+    //     $('.slide').css('margin-left',-1200);
+    //     $('.slide').stop().animate({marginLeft:0},800);
+    // }
+    // function next() {
+    //     $('.slide').stop().animate({marginLeft:-1200}, 800,function () {
+    //     $('.list:first').appendTo('.slide');
+    //     $('.slide').css({marginLeft:0});
+    //     });
+    // }
+    // function slide(){
+    //     $('.slide').stop().animate({marginLeft:-1200}, 800,function () {
+    //     $('.list:first').appendTo('.slide');
+    //     $('.slide').css({marginLeft:0});
+    //     });
+    // }
+    // setInterval(slide,4000);
+    //     $('.main_prev').click(function (){
+    //     prev();
+    //     });
+    //     $('.main_next').click(function(){
+    //     next();
+    //     });        
+    // });
    
-    var bg=["#fbe8e4","#fdefc2","#e6e3db"];
-    var i=0;
-    function chbg(){
-    slider.style.backgroundColor=bg[i];
-    i++;
-    if(i>=bg.length){
-    i=0;
-    }
-    }
+    // var bg=["#fbe8e4","#fdefc2","#e6e3db"];
+    // var i=0;
+    // function chbg(){
+    // slider.style.backgroundColor=bg[i];
+    // i++;
+    // if(i>=bg.length){
+    // i=0;
+    // }
+    // }
 
-    setInterval(chbg,4000);
+    // setInterval(chbg,4000);
 
+    
    //  첫번째 메인 슬라이드
 
 
@@ -187,8 +217,8 @@
     <div id="slider">
         <div class="slide_wrap">
     
-            <span class="main_prev"><b>&lt;</b></span>
-            <span class="main_next"><b>&gt;</b></span>
+            <!-- <span class="main_prev"><b>&lt;</b></span>
+            <span class="main_next"><b>&gt;</b></span> -->
     
             <div class="slide">
     
