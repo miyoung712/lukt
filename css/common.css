@@ -124,24 +124,28 @@
    .overlay {height:100%; width:0; position:fixed; z-index:103; top:100px; left:0;
              overflow-x:hidden; transition:0.5s; background-color: #fbe8e4; opacity:1;}
 
-    .show {width:100%;}
+   .show {width:100%;}
    .overlay-cotent {position:relative; top:0; width:100%; text-align:center;
              display:block; margin-top:50px;}
-   .overlay a { margin-top:100px; margin-left:100px; font-size:60px; color:#fff; display:block; 
-              line-height:1px;}
+   .overlay a { margin-top:100px; margin-left:95px; font-size:65px; color:#fff; display:block; 
+              line-height:2px;}
    .overlay a:hover, .overlay a:focus {color:#ef5350; transition: 0.5s ease-in-out;}
 
 
     /* sns 아이콘 */
-    .main_icon {width:400px; height:55px;  margin:100px 0 0 120px; }
+    .main_icon {width:400px; height:55px; margin:100px 0 0 100px; }
     .fa-instagram-square:before {
         content: "\e055";
     }
     .main_icon .fab{color:#f05250; font-size:35px;}
-    .main_icon .fab:first-of-type {margin-left:2px;}
+
+    .main_icon .fab:first-of-type {margin-left:5px;}
+    .main_icon .fab:nth-of-type(2) {margin-left:10px;}
+    .main_icon .fab:nth-of-type(3) {margin-left:10px;}
+
     .main_icon .fab:hover {color:#000; cursor:pointer; transform:scale(1.2);
                         transition: all 0.5s ease-in-out;}
-    .main_icon h3 {font-size:13px; margin-bottom:10px; color:#5d5d5d; margin-left:5px;}                  
+    .main_icon h3 {font-size:13px; margin-bottom:15px; color:#ef5350; margin-left:5px;}                  
 
     /* sns 아이콘 */
    }
