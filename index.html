@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lukt_2</title>
+    <title>lukt</title>
     
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
@@ -14,17 +14,26 @@
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 
+ 
 
     <!-- 카테고리 네비 메뉴바 -->
     <script>
        function openNav (){
-           document.getElementById("myNav").style.width="100%";
+           $("#myNav").toggleClass('show');
        }
-        function closeNav() {
-            document.getElementById("myNav").style.width="0%";
-       }
+        
     // 카테고리 네비 메뉴바
+    
 
+
+    //  상단메뉴아이콘
+        $(document).ready(function () {
+            $(".hamburger").click(function () {
+                $(this).toggleClass("is-active");
+            });
+        });
+    //  상단메뉴아이콘
+    
 
 
     //  첫번째 메인 슬라이드
@@ -55,6 +64,7 @@
           }
       }
       setInterval(chbg,3000);
+
 
 
 
@@ -189,28 +199,54 @@
 <header>
 
 
+
     <div class="small">
-        <img src="img/menubar.png" id="b" onclick="openNav()">
-        <img src="img/logo.png" alt="" class="logo">
-            <div id="a">
+      
+
+    <!-- 상단메뉴아이콘 -->
+        <div class="container">
+            <div class="row cf">
+                <div class="three col" id="b" onclick="openNav()"> 
+                    <div class="hamburger" id="hamburger-9">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    </div>
+                 </div>
+           </div>
+        </div>
+    </div>
+    <img src="img/logo.png" alt="" class="logo">
+    <!-- 상단메뉴아이콘 -->
+            <!-- <div id="a">
             <a href="#">HOME</a>
             <a href="#">PRODUCTS</a>
             <a href="#">ABOUT US</a>
             <a href="#">CONTACT</a>
-        </div>
-    </div>
+                <div class="main_icon">
+                    <h3>FOLLOW US</h3>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+          </div> -->
 
 
     <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</a>
+      <!-- <a href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</a> -->
       <div class="overlay-content">
         <a href="#">HOME</a>
         <a href="#">PRODUCTS</a>
         <a href="#">ABOUT US</a>
         <a href="#">CONTACT</a>
+            <div class="main_icon">
+                <h3>FOLLOW US</h3>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
       </div>
-   </div>
-
+    </div>
 
 </header>
 
@@ -250,6 +286,7 @@
                         <img src="img/honey.png" alt="">
                         <img src="img/main/main_honey.png" alt="">
                         <img src="img/honeybee.png" alt="">
+                        <img src="img/honeybee_2.png" alt="">
                     </div>
                 </div>
     
