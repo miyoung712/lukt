@@ -110,15 +110,15 @@
 
 
 @media (max-width:599px) {
-    header {width:100%; height:100px;background-color: #fff;}
+    header {width:100%; height:100px;background-color: #fff; position:fixed; z-index:100;}
     header .small{float:left; width:100px; display:flex; align-items:center; justify-content:flex-start; padding:20px;}
 
     .logo {width:150px; height:70px; line-height:80px;margin:15px 0px 0 -10px; }
     .menubar {width:70px; height:70px; line-height:80px;}
     .menubar:hover {cursor:pointer;}
 
-    #a {display:none; font-family: 'GmarketSansBold';}
-    #b {font-family: 'GmarketSansBold';}
+    #a {display:none; font-family: 'MaruBuri-Regular';}
+    #b {font-family: 'MaruBuri-Regular';}
   
 
    .overlay {height:100%; width:0; position:fixed; z-index:103; top:100px; left:0;
@@ -127,8 +127,8 @@
    .show {width:100%;}
    .overlay-cotent {position:relative; top:0; width:100%; text-align:center;
              display:block; margin-top:50px;}
-   .overlay a { margin-top:100px; margin-left:95px; font-size:65px; color:#fff; display:block; 
-              line-height:2px;}
+   .overlay a {  margin-left:95px; font-size:65px; color:#fff; display:block; }
+   .overlay a:first-of-type {margin-top:100px;}
    .overlay a:hover, .overlay a:focus {color:#ef5350; transition: 0.5s ease-in-out;}
 
 
@@ -140,8 +140,8 @@
     .main_icon .fab{color:#f05250; font-size:35px;}
 
     .main_icon .fab:first-of-type {margin-left:5px;}
-    .main_icon .fab:nth-of-type(2) {margin-left:10px;}
-    .main_icon .fab:nth-of-type(3) {margin-left:10px;}
+    .main_icon .fab:nth-of-type(2) {margin-left:15px;}
+    .main_icon .fab:nth-of-type(3) {margin-left:15px;}
 
     .main_icon .fab:hover {color:#000; cursor:pointer; transform:scale(1.2);
                         transition: all 0.5s ease-in-out;}
@@ -155,7 +155,7 @@
 
 
     @media (min-width:600px) {
-    header {width:100%; height:100px; background-color: #fff;}
+    header {width:100%; height:100px; background-color: #fff; position:fixed; z-index:100;}
     header .small{float:left;  width:100px; display:flex; align-items:center; justify-content:flex-start; padding:20px;}
 
 
@@ -163,8 +163,8 @@
     .menubar {width:70px; height:70px; line-height:80px;}
     .menubar:hover {cursor:pointer; transition: all 0.5s ease-in-out;}
 
-    #a,#c {display:none; font-family: 'GmarketSansBold';}
-    #b { font-family: 'GmarketSansBold';}
+    #a,#c {display:none; font-family: 'MaruBuri-Regular';}
+    #b { font-family: 'MaruBuri-Regular';}
     img {cursor:pointer;}
 
 
@@ -180,10 +180,15 @@
     
  
     /* sns 아이콘 */
-    .main_icon {width:400px; height:55px; margin:120px 0 0 100px; }
+    .main_icon {width:400px; height:55px; margin:120px 0 0 98px; }
     .fa-instagram-square:before {
         content: "\e055";
     }
+
+    .main_icon .fab:first-of-type {margin-left:11px;}
+    .main_icon .fab:nth-of-type(2) {margin-left:13px;}
+    .main_icon .fab:nth-of-type(3) {margin-left:13px;}
+
     .main_icon .fab{color:#f05250; font-size:35px; margin:0 0 0 25px; }
     .main_icon .fab:first-of-type {margin-left:10px;}
     .main_icon .fab:hover {color:#000; cursor:pointer; transform:scale(1.2);
