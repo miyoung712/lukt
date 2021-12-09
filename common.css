@@ -374,7 +374,7 @@
     .btn_slide a{font-family:"GyeonggiBatang";}         
     .company {width:175px; height:320px;}
     .company h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                 letter-spacing:1px; margin-top:57px; padding-left:63px;}
+                 letter-spacing:1px; margin-top:57px; padding-left:62px;}
     .company p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
                 padding-top:15px; padding-left:63px; line-height:25px;}
     .customer_care {width:220px; height:330px;}
@@ -450,7 +450,7 @@
 
             @media (min-width:600px) and (max-width:1199px) {
 
-            footer {width:100%; height: 730px; margin:0 auto; background-color:#e4e4e4;
+            footer {width:100%; height: 790px; margin:0 auto; background-color:#e4e4e4;
                      background-image:linear-gradient(to bottom right,#e4e4e4,#d6dee2,#c5dbe7);}
             .f_box {width:100%; height:440px; margin:0 auto; 
                     display:flex;  flex-direction: column; align-items:center;}
@@ -502,25 +502,25 @@
             .f_r_box {width:600px; height:440px; 
                       display:flex; flex-flow:row wrap;}
             .btn_slide a{font-family:"GyeonggiBatang";}         
-            .company {width:175px; height:320px; background-color: blanchedalmond; }
+            .company {width:160px; height:320px; }
             .company h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                         letter-spacing:1px; margin-top:57px; padding-left:63px;}
+                         letter-spacing:1px; margin-top:57px; padding-right:50px;}
             .company p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
-                        padding-top:15px; padding-left:63px; line-height:25px;}
+                        padding-top:15px; padding-right:15px; line-height:25px;}
             .customer_care {width:220px; height:330px;}
             .customer_care h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                              letter-spacing:1px; margin-top:57px; padding-left:44px;}
+                              letter-spacing:1px; margin-top:57px; padding-right:15px;}
             .customer_care p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
-                              padding-top:15px; padding-left:44px; line-height:25px;}
-            .shop {width:200px; height:320px;}
+                              padding-top:15px; padding-right:15px; line-height:25px;}
+            .shop {width:200px; height:320px; }
             .shop h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;
-                     letter-spacing:1px; margin-top:57px; padding-left:45px;}
+                     letter-spacing:1px; margin-top:57px; padding-right:15px;}
             .shop p {font-family:"GyeonggiBatang"; font-size:15px; color:#000;
-                     padding-top:15px; padding-left:45px; line-height:25px; }
+                     padding-top:15px; padding-right:15px; line-height:25px; }
         
-            .copyright_box {width:600px; height:30px;  margin-top:-30px;}
+            .copyright_box {width:600px; height:30px;  margin-top:-10px; }
             .copyright_box span {font-family:"S-CoreDream-4Regular"; font-size:11px; color:#616161;
-                                 margin-left:190px; letter-spacing: 1px;}
+                                 margin-right:90px; letter-spacing: 1px;}
         
             /* 하단 오른쪽 */
         

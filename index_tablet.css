@@ -92,9 +92,7 @@
       
           .two_y_box h3:first-of-type {font-family: 'MaruBuri-Regular'; font-size:17px; color:#595959; letter-spacing: 1px; top:29%; left:19%; position: absolute;}
           .two_y_box h3:nth-of-type(2) {font-family: 'MaruBuri-Regular'; font-size:17px; color:#595959; letter-spacing: 1px; top:29%; right:18%; position: absolute;}
-      /* 
-          .two_y_box span:first-of-type {font-family: 'MaruBuri-Regular'; font-size:20px; color:#454444; letter-spacing: 1px; top:22%; left:31%;}
-          .two_y_box span:nth-of-type(2) {font-family: 'MaruBuri-Regular'; font-size:20px; color:#454444; letter-spacing: 1px; top:22%; left:30%;} */
+     
       
           .two_y_box img:first-of-type {width:290px; height:280px; position: absolute; top:41%; left:2%; }
           .two_y_box img:nth-of-type(2) {width:290px; height:280px; position: absolute; top:41%; right:2%;}

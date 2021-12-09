@@ -78,25 +78,22 @@
      .two_yogurtbox {width:1200px; height:550px; margin: 0 auto; display:flex; flex-direction: row;}
      .two_y_box:first-of-type {width:376px; height:550px; background-color:#fff; border-radius: 50px 50px 0px 0px; margin-right:10px; position:relative;}
      
-     .two_y_box:nth-of-type(2) {width:814px; height:550px; background-color:#fff; border-radius:50px 50px 0px 0px; position:relative; flex-wrap: wrap;}
+     .two_y_box:nth-of-type(2) {width:814px; height:550px; background-color:#fff; border-radius:50px 50px 0px 0px; 
+                                position:relative; display:flex; flex-wrap: wrap; justify-content: center;}
      
+     .two_y_2b:first-of-type {width:400px; height:530px; background-color:yellow; }
+     .two_y_2b:nth-of-type(2) {width:400px; height:530px; background-color:#ea5f54; }
+
      .two_y_box h1 {font-family: "MaruBuri-Regular"; font-size:44px; color:#000; text-align:center; margin-top:98px; text-transform: uppercase; line-height:49px;}
      .two_y_box p {font-family: "S-CoreDream-4Regular"; font-size:14px; color:#878686; text-align:center; margin-top:27px; line-height:18px; letter-spacing:1px;}
      
      .two_y_button {font-family:"S-CoreDream-5Medium"; font-size:15px; width:185px; height:70px; border-radius:50px; color:#fff; position: absolute; top:66%; left:27%;  transform:translate(-50%, -50%); background-color:#212121; cursor:pointer; border:0; transform: scale(1.0); transition:0.3s;}
      .two_y_button:hover {background-color:#8d8b8b; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
      
-     .two_y_box h2:first-of-type {font-family: 'MaruBuri-Regular'; font-size:32px; color:#3d5bb3; text-align:center;  top:13%; left:14%; position: absolute; }
-     .two_y_box h2:nth-of-type(2) {font-family: 'MaruBuri-Regular'; font-size:32px; color:#3d5bb3; text-align:center;  top:13%; right:15%; position: absolute; }
+     .two_y_box h2 {font-family: 'MaruBuri-Regular'; font-size:32px; color:#3d5bb3; margin-top:60px; text-align:center;  }
+     .two_y_box h3 {font-family: 'MaruBuri-Regular'; font-size:17px; color:#595959; margin-top:5px; letter-spacing: 1px;  text-align:center;}
      
-     .two_y_box h3:first-of-type {font-family: 'MaruBuri-Regular'; font-size:17px; color:#595959; letter-spacing: 1px; top:29%; left:20%; position: absolute;}
-     .two_y_box h3:nth-of-type(2) {font-family: 'MaruBuri-Regular'; font-size:17px; color:#595959; letter-spacing: 1px; top:29%; right:20%; position: absolute;}
-     /* 
-     .two_y_box span:first-of-type {font-family: 'MaruBuri-Regular'; font-size:20px; color:#454444; letter-spacing: 1px; top:22%; left:31%;}
-     .two_y_box span:nth-of-type(2) {font-family: 'MaruBuri-Regular'; font-size:20px; color:#454444; letter-spacing: 1px; top:22%; left:30%;} */
-     
-     .two_y_box img:first-of-type {width:290px; height:280px; position: absolute; top:41%; left:10%; }
-     .two_y_box img:nth-of-type(2) {width:290px; height:280px; position: absolute; top:41%; right:10%;}
+     .two_y_box img {width:290px; height:280px; margin-top:50px;}
      .two_y_box img:hover {transform: translateY(-20px); transition: all 0.3s ease-in-out;}
      
      .slider_two {width:1200px; height:500px; background-color: #eee; margin:330px auto 0; position:relative; overflow:hidden; }
