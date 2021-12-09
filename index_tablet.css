@@ -141,7 +141,8 @@
           .one_textbox { background-color:#fff; border-radius:40px; margin-top:-100px;display:none; text-align:center; position:relative; }    
           
           .one_textbox h4 {font-family: "MaruBuri-Regular"; color:#000; font-size:15px;
-                          text-align:center; margin-top:17px; letter-spacing: 1px; text-align:center;}
+                          text-align:center; margin-top:19px; letter-spacing: 1px; text-align:center;}
+         .one_textbox:nth-of-type(4) h4 {margin-top:10px;}                
          .one_textbox:nth-of-type(2) {width:540px; height:57px; display:block;}  
          .one_textbox:nth-of-type(3) {width:610px; height:57px;} 
          .one_textbox:nth-of-type(4) {width:660px; height:57px;} 
@@ -156,14 +157,14 @@
          .one_textbox:nth-of-type(5)::after {left: 74%;}
          .one_textbox:nth-of-type(6)::after {left: 87%;}
       
-         .icelandic {width:100%; height:790px; background-color:#bfe0f3;}
-         .icelandic_box {width:1200px; height:790px; background-color:#bfe0f3; margin:0 auto;}
+         .icelandic {width:100%; height:1300px; background-color:#bfe0f3;}
+         .icelandic_box {width:100%; height:790px; background-color:#bfe0f3; margin:0 auto;}
          .icelandic_box h1 {font-family: "HANBatang"; color:#FFF; font-size:43px; text-align:center; 
                           letter-spacing:1px; padding-top:90px; letter-spacing:2px;}
          .icelandic_box p {font-family: "MaruBuri-Regular"; color:#FFF; font-size:27px; text-align:center; 
                           letter-spacing:1px; padding-top:8px}
       
-         .ice_bigbox {width:1200px; height:420px; display:flex; justify-content: space-between; margin-top:55px; background-color: #bfe0f3;}
+         .ice_bigbox {width:100%; height:700px; display:flex; margin-top:55px; background-color: #bfe0f3; flex-direction: column; justify-items:center; background-color:000;}
          
          .ice_box {width:388px; height:420px; border-radius:35px; border:5px solid #fff; position:relative; overflow:hidden;}
       
