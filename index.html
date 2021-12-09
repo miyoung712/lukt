@@ -113,32 +113,75 @@
 
 
     // 두번째 (세번째 배너) 슬라이드
+
     $(function(){
-        function prev() {
-        $('.slide_box_two:last').prependTo('.slide_wrap_two');
-        $('.slide_wrap_two').css('margin-left',-1200);
-        $('.slide_wrap_two').stop().animate({marginLeft:0},800);
-    }
-    function next() {
-        $('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
-        $('.slide_box_two:first').appendTo('.slide_wrap_two');
-        $('.slide_wrap_two').css({marginLeft:0});
-        });
-    }
-    function slide(){
-        $('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
-        $('.slide_box_two:first').appendTo('.slide_wrap_two');
-        $('.slide_wrap_two').css({marginLeft:0});
-        });
-    }
-    setInterval(slide,3000);
-        $('.two_prev').click(function (){
-        prev();
-        });
-        $('.two_next').click(function(){
-        next();
-        });        
+
+        if (window.matchMedia("(min-width: 1200px)").matches) {
+
+$(function(){
+function prev() {
+$('.slide_box_two:last').prependTo('.slide_wrap_two');
+$('.slide_wrap_two').css('margin-left',-1200);
+$('.slide_wrap_two').stop().animate({marginLeft:0},800);
+}
+function next() {
+$('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
+$('.slide_box_two:first').appendTo('.slide_wrap_two');
+$('.slide_wrap_two').css({marginLeft:0});
+});
+}
+function slider_two(){
+$('.slide_wrap_two').stop().animate({marginLeft:-1200}, 800,function () {
+$('.slide_box_two:first').appendTo('.slide_wrap_two');
+$('.slide_wrap_two').css({marginLeft:0});
+});
+}
+setInterval(slider_two,3000);
+$('.two_prev').click(function (){
+prev();
+});
+$('.two_next').click(function(){
+next();
+});        
+});
+
+} else {
+
+var w=window.innerWidth;
+
+$(function(){
+function prev() {
+$('.slide_box_two:last').prependTo('.slide_wrap_two');
+$('.slide_wrap_two').css('margin-left',-w);
+$('.slide_wrap_two').stop().animate({marginLeft:0},800);
+}
+function next() {
+$('.slide_wrap_two').stop().animate({marginLeft:-w}, 800,function () {
+$('.slide_box_two:first').appendTo('.slide_wrap_two');
+$('.slide_wrap_two').css({marginLeft:0});
+});
+}
+function slider_two(){
+$('.slide_wrap_two').stop().animate({marginLeft:-w}, 800,function () {
+$('.slide_box_two:first').appendTo('.slide_wrap_two');
+$('.slide_wrap_two').css({marginLeft:0});
+});
+}
+setInterval(slider_two,3000);
+$('.two_prev').click(function (){
+prev();
+});
+$('.two_next').click(function(){
+next();
+});        
+});
+
+}
     });
+
+    
+
+    
    // 두번째 (세번째 배너) 슬라이드
 
 
