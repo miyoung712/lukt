@@ -78,16 +78,14 @@
      .two_yogurtbox {width:1200px; height:550px; margin: 0 auto; display:flex; flex-direction: row;}
      .two_y_box:first-of-type {width:376px; height:550px; background-color:#fff; border-radius: 50px 50px 0px 0px; margin-right:10px; position:relative;}
      
-     .two_y_box:nth-of-type(2) {width:814px; height:550px; background-color:#fff; border-radius:50px 50px 0px 0px; 
-                                position:relative; display:flex; flex-wrap: wrap; justify-content: center;}
+     .two_y_box:nth-of-type(2) {width:814px; height:550px; background-color:#fff; border-radius:50px 50px 0px 0px; position:relative; display:flex; flex-wrap: wrap; justify-content: center; align-items: center;}
      
-     .two_y_2b:first-of-type {width:400px; height:530px; background-color:yellow; }
-     .two_y_2b:nth-of-type(2) {width:400px; height:530px; background-color:#ea5f54; }
+     .two_y_2b {width:400px; height:530px; display:flex; flex-direction: column; align-items: center;}
 
      .two_y_box h1 {font-family: "MaruBuri-Regular"; font-size:44px; color:#000; text-align:center; margin-top:98px; text-transform: uppercase; line-height:49px;}
      .two_y_box p {font-family: "S-CoreDream-4Regular"; font-size:14px; color:#878686; text-align:center; margin-top:27px; line-height:18px; letter-spacing:1px;}
      
-     .two_y_button {font-family:"S-CoreDream-5Medium"; font-size:15px; width:185px; height:70px; border-radius:50px; color:#fff; position: absolute; top:66%; left:27%;  transform:translate(-50%, -50%); background-color:#212121; cursor:pointer; border:0; transform: scale(1.0); transition:0.3s;}
+     .two_y_button {font-family:"S-CoreDream-5Medium"; font-size:15px; width:185px; height:70px; border-radius:50px; color:#fff; position: absolute; top:66%; left:0; right: 0; margin: 0 auto; background-color:#212121; cursor:pointer; border:0; transform: scale(1.0); transition:0.3s;}
      .two_y_button:hover {background-color:#8d8b8b; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
      
      .two_y_box h2 {font-family: 'MaruBuri-Regular'; font-size:32px; color:#3d5bb3; margin-top:60px; text-align:center;  }
@@ -100,7 +98,7 @@
      .slide_wrap_two {width:3600px; height:500px; background-color: #3d5bb3; margin:0 auto;}
      .slide_box_two {width:1200px; height:500px; background-color: #fcfbf7; margin:0px auto 0; display:flex; justify-content: space-between;  align-items: center; float:left;}
      
-     .slide_box_two span{position: absolute; top:50%; display:block; font-size:40px;
+     .slider_two span{position: absolute; top:50%; display:block; font-size:40px;
                          color:#fff; line-height:20px; background-color: #ccc4a5; cursor:pointer; width:45px; height:50px; transform: translateY(-50%);}
      
      .two_prev {left:0; border-radius: 0 10px 10px 0px; padding:10px 7px;}
