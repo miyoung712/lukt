@@ -592,7 +592,7 @@
         .f_l_box {width:600px; height:440px; padding-left:22px;}
         
         .keep_box {width:590px; height:130px;}
-        .keep_box h1 {font-family:"S-CoreDream-4Regular"; font-size:20px; color:#000;    
+        .keep_box h1 {font-family:"S-CoreDream-4Regular"; font-size:12px; color:#000;    
                         letter-spacing:1px; margin-top:57px;}
     
     
@@ -600,7 +600,7 @@
         .keep_search_box {box-sizing:border-box;} 
         .keep_search_box input[type=text] {
             height:50px; font-size:12px; float:left; width:500px; border:0; background:#f1f1f1;
-            border-radius:8px; margin-top:15px; padding-left:20px;}
+            border-radius:8px; margin-top:15px; padding-left:50px;}
         .keep_search_box button { font-family:"S-CoreDream-4Regular";  
                 float:left; width:100px; height:50px; background:#000;
                 color:#fff; font-size:11px; border:0; border-left:none; 
