@@ -28,10 +28,10 @@
                      text-transform: uppercase; color:#fff; padding-top:55px; line-height:60px;}
          .main_slide_1 p { font-family:"HANBatang"; font-size:20px; text-align:center; color:#ea5f54; margin-top:25px; line-height:25px;}
        
-         .main_slide_1 img:first-child {width:160px; height:198px; position: absolute; top:20px; right:17px;}
-         .main_slide_1 img:nth-child(2)  {width:156px; height:189px;  position: absolute; top:290px; left:15px;}
-         .main_slide_1 img:nth-child(3) {width:280px; height:286px;  position: absolute; bottom:280px; left:45px;}
-         .main_slide_1 img:nth-child(4) {width:150px; height:134px;  position: absolute; bottom:25px; left:23px;}
+         .main_slide_1 img:first-child {width:140px; height:173px; position: absolute; top:17px; right:8px;}
+         .main_slide_1 img:nth-child(2)  {width:140px; height:170px;  position: absolute; top:400px; left:45px;}
+         .main_slide_1 img:nth-child(3) {width:280px; height:286px;  position: absolute; bottom:260px; left:120px;}
+         .main_slide_1 img:nth-child(4) {width:150px; height:134px;  position: absolute; bottom:230px; left:90px;}
       
          .main_slide_1 .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#ea5f54; margin:220px 0 0 -85px; transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
          .main_slide_1 .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
@@ -45,10 +45,10 @@
                       text-transform: uppercase; color:#fff; padding-top:55px; line-height:60px;}
           .main_slide_2 p { font-family:"HANBatang"; font-size:20px; text-align:center; color:#f0b119; margin-top:25px; line-height:25px;}
       
-          .main_slide_2 img:first-child {width:300px; height:320px; position: absolute; top:360px; right:0px;}
-          .main_slide_2 img:nth-child(2)  {width:280px; height:286px;  position: absolute; top:380px; left:23px;}
-          .main_slide_2 img:nth-child(3) {width:70px; height:45px;  position: absolute; top:55px; left:158px;}
-          .main_slide_2 img:nth-child(4) {width:60px; height:41px;  position: absolute; bottom:120px; left:300px;}
+          .main_slide_2 img:first-child {width:200px; height:213px; position: absolute; top:590px; right:0px;}
+          .main_slide_2 img:nth-child(2)  {width:280px; height:286px;  position: absolute; top:400px; left:110px;}
+          .main_slide_2 img:nth-child(3) {width:70px; height:45px;  position: absolute; top:25px; left:105px;}
+          .main_slide_2 img:nth-child(4) {width:60px; height:41px;  position: absolute; bottom:220px; left:210px;}
       
           .main_slide_2 .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#f0b119; margin:220px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
           .main_slide_2 .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
@@ -62,10 +62,10 @@
                       text-transform: uppercase; color:#fff; padding-top:55px; line-height:60px;}
           .main_slide_3 p { font-family:"HANBatang"; font-size:20px; text-align:center; color:#908975; margin-top:25px; line-height:25px;}
       
-          .main_slide_3 img:first-child {width:88px; height:54px; position: absolute; top:35px; left:438px;}
-          .main_slide_3 img:nth-child(2)  {width:280px; height:286px;  position: absolute; top:370px; left:30px;}
-          .main_slide_3 img:nth-child(3) {width:170px; height:107px;  position: absolute; bottom:8px; left:30px;}
-          .main_slide_3 img:nth-child(4) {width:280px; height:158px;  position: absolute; bottom:35px; right:13px;}
+          .main_slide_3 img:first-child {width:88px; height:54px; position: absolute; top:12px; left:200px;}
+          .main_slide_3 img:nth-child(2)  {width:280px; height:286px;  position: absolute; top:370px; left:110px;}
+          .main_slide_3 img:nth-child(3) {width:130px; height:82px;  position: absolute; bottom:130px; left:80px;}
+          .main_slide_3 img:nth-child(4) {width:280px; height:158px;  position: absolute; bottom:100px; right:-30px;}
           
           .main_slide_3 .main_btn_s {font-family:"S-CoreDream-5Medium"; font-size:15px; width:170px; height:80px; border-radius: 50px; color:#fff; position: absolute; top:52%; left:50%; background-color:#908975; margin:220px 0 0 -85px;transform: scale(1.0); transition:0.3s; border:0; cursor:pointer;}
           .main_slide_3 .main_btn_s:hover {background-color:#212121; cursor:pointer; transform: scale(1.1); transition: all 0.3s ease-in-out;}
