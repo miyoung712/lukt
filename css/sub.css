@@ -8,7 +8,7 @@
 
     #sub_main {width: 1200px; height:900px; margin:0 auto; background-color: aquamarine;}
     .sub_main_box {width: 1200px; height:850px; margin:0 auto; background-color:pink;
-                   display:flex; flex-direction:column; justify-content: center;}
+                  flex-wrap: wrap; justify-content: center; align-items: center;}
     .sub_main_box h1 {font-family:"yg-jalnan"; font-size:95px; text-align:center; 
                   text-transform: uppercase; color:#fff; padding-top:50px; line-height:100px;}
     .sub_main_box img:first-of-type  {width:129px; height:118px;}
