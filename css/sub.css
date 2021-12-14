@@ -6,16 +6,35 @@
     #slider{ padding-top:100px;}
     section {width:100%; height:2000px; margin:0 auto; background-color:#dceffc;}
 
-    #sub_main {width: 1200px; height:900px; margin:0 auto; background-color: aquamarine;}
-    .sub_main_box {width: 1200px; height:850px; margin:0 auto; background-color:pink;
-                  flex-wrap: wrap; justify-content: center; align-items: center;}
+    #sub_main {width: 1200px; height:900px; margin:0 auto;} 
+    .sub_main_box {width: 1200px; height:900px; margin:0 auto; position:relative;
+                      background-color:#dceffc;}
+
+    /* 서브_메인 이미지 슬라이드 */
+    #sub_main > div {height:900px; padding:20px;}
+    .sub_main_box img:first-of-type {transform: translateY(20px); transition: all 1s; opacity: 0;}
+    .sub_main_box img:nth-of-type(3) {transform: translateY(20px); transition: all 1s; opacity: 0;}
+    /* 서브_메인 이미지 슬라이드 */
+
     .sub_main_box h1 {font-family:"yg-jalnan"; font-size:95px; text-align:center; 
-                  text-transform: uppercase; color:#fff; padding-top:50px; line-height:100px;}
-    .sub_main_box img:first-of-type  {width:129px; height:118px;}
-    .sub_main_box img:nth-of-type(2) {width:380px; height:360px;}
-    .sub_main_box img:nth-of-type(3) {width:437px; height:338px;}
-    .sub_main_box p { font-family:"HANBatang"; font-size:25px; text-align:center;   
-                   color:#235ad5; margin-top:40px; line-height:30px;}
+                  text-transform: uppercase; color:#fff; padding-top:70px; line-height:100px;}
+    .sub_main_box img:first-of-type  {width:129px; height:118px; position: absolute; top:75px; left:53px;}
+    .sub_main_box img:nth-of-type(2) {width:380px; height:360px; position: absolute; top:38%; left:33%; }
+    .sub_main_box img:nth-of-type(3) {width:384px; height:287px; position: absolute; top:53%; left:50%; }
+    .sub_main_box img:nth-of-type(2):hover {transform: translateY(-22px); transition: all 0.3s ease-in-out;}
+    .sub_main_box p { font-family:"HANBatang"; font-size:28px; text-align:center;   
+                   color:#256be9; margin-top:470px; line-height:33px;}
+
+    .fixed_sub {width:1200px; height:370px; margin:0 auto; background-color:#256be9;}
+    .fixed_sub h2 {font-family:"S-CoreDream-4Regular"; font-size: 22px; color:#fff;
+                   text-align:center; letter-spacing:3px; padding-top:100px;}
+
+
+
+    .sub_content {width:1200px; height:500px; margin:0 auto; background-color:#fff;}
+
+    
+
 
 
 

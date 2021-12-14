@@ -23,6 +23,8 @@
        }
         
     // 카테고리 네비 메뉴바
+
+
     
     //  상단메뉴아이콘
         $(document).ready(function () {
@@ -31,7 +33,21 @@
             });
         });
     //  상단메뉴아이콘
+
     
+
+    //  서브 메인 슬라이드
+      $(function(){
+        $(window).scroll(function(){
+          var ws=$(this).scrollTop();
+    
+         if(ws>1){
+            $('.sub_main_box img').css("transform","translateY(0px)").css("opacity","1");
+          }
+        });
+      });
+    //  서브 메인 슬라이드
+
 </script>
 </head>
 
@@ -77,16 +93,19 @@
         <img src="img/blueberry_l.png" alt="">
         <h1>Blueberry Mild Yogurt Ball</h1>
         <img src="img/blueberry_y.png" alt="">
-        <!-- <img src="img/blueberry.png" alt=""> -->
+        <img src="img/blueberry.png" alt="">
         <p>The combination of low fat yogurt and<br>
            blueberries that Iceland loves</p>
-
      </div>
-        
     </div>
 
-
-
+     <div class="fixed_sub">
+         <h2>Crude oil 99.96% • Combined lactobacillus 0.04% • Blueberry 76%</h2>
+     </div>
+     
+     <div class="sub_content">
+     </div>
+   
 
 
 
@@ -148,12 +167,7 @@
                     <b>Contact</b></a></p>
          </div>
 
-         <!-- <div class="company">
-            <h1>Company</h1>
-            <p><b>Home<br>Product<br>About us<br>Contact</b></p>
-        </div> -->
-
-            <div class="customer_care">
+           <div class="customer_care">
                 <h1>Customer Care</h1>
                 <p><a href="#" class="btn_slide">
                     <b>Terms and Conditions</b></a><br>
@@ -177,12 +191,6 @@
                     <b>Instructions</b></a></p>
             </div>
     
-           <!-- <div class="customer_care">
-               <h1>Customer Care</h1>
-               <p><b>Terms and Conditions<br>Review<br>FAQ<br>Changelog<br>
-                Image license info<br>Style guide<br>Instructions</b></p>
-           </div> -->
-
           <div class="shop">
               <h1>Shop</h1>
 
