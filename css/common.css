@@ -126,14 +126,14 @@
 
    .show {width:100%;}
    .overlay-cotent {position:relative; top:0; width:100%; text-align:center;
-             display:block; margin-top:50px;}
-   .overlay a {  margin-left:95px; font-size:65px; color:#fff; display:block; }
+             display:block; margin-top:60px;}
+   .overlay a {  margin-left:55px; font-size:65px; color:#fff; display:block; }
    .overlay a:first-of-type {margin-top:100px;}
    .overlay a:hover, .overlay a:focus {color:#ef5350; transition: 0.5s ease-in-out;}
 
 
     /* sns 아이콘 */
-    .main_icon {width:400px; height:55px; margin:100px 0 0 100px; }
+    .main_icon {width:400px; height:55px; margin:100px 0 0 60px; }
     .fa-instagram-square:before {
         content: "\e055";
     }
