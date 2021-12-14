@@ -6,8 +6,16 @@
     #slider{ padding-top:100px;}
     section {width:100%; height:2000px; margin:0 auto; background-color:#dceffc;}
 
-
-
+    #sub_main {width: 1200px; height:900px; margin:0 auto; background-color: aquamarine;}
+    .sub_main_box {width: 1200px; height:850px; margin:0 auto; background-color:#dceffc;
+                   display:flex; flex-direction:column; justify-content: center;}
+    .sub_main_box h1 {font-family:"yg-jalnan"; font-size:95px; text-align:center; 
+                  text-transform: uppercase; color:#fff; padding-top:50px; line-height:100px;}
+    .sub_main_box img:first-of-type {width:380px; height:360px;}
+    .sub_main_box img:nth-of-type(2) {width:129px; height:118px;}
+    .sub_main_box img:nth-of-type(3) {width:437px; height:338px;}
+    .sub_main_box p { font-family:"HANBatang"; font-size:25px; text-align:center;   
+                   color:#235ad5; margin-top:40px; line-height:30px;}
 
 
 
