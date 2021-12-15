@@ -48,6 +48,20 @@
       });
     //  서브 메인 슬라이드
 
+
+    //  서브 내용 이미지 슬라이드
+        $(function(){
+        $(window).scroll(function(){
+          var ws=$(this).scrollTop();
+    
+         if(ws>1500){
+            $('.sub_img img').css("transform","translateY(0px)").css("opacity","1");
+          }
+        });
+      });
+    //  서브 내용 이미지 슬라이드
+
+
 </script>
 </head>
 
@@ -127,22 +141,43 @@
              <p>calorie 70kcal, sodium 15mg,<br>carbohydrate 16g, sugar 16g,<br>fat 0.5g</p>
             </div>
         </div>
-
+ 
+        <div id="sub_slide">
             <div class="sub_img">
              <img src="img/detail_blueberry.jpg" alt="">
              <img src="img/detail_blueberry_4.jpg" alt="">
              <img src="img/detail_blueberry_5.jpg" alt="">
-
             </div>
+        </div>
+
+        <div class="choose_big_box">
+              <h1>Choose Your Favorite Flavor</h1>
+              <!-- <p>Take All The Flavors and Nutrients You Like</p> -->
+
+          <div class="c_box">
+             <div class="choose_box">
+              <h2>Raspberry</h2>
+              <p>￦6,900<span>won</span></p>
+              <img src="img/SUB/sub_raspberry.png" alt="">
+             </div>
+        
+             <div class="choose_box">
+             <h2>Honey</h2>
+             <p>￦5,900<span>won</span></p>
+             <img src="img/SUB/sub_honey.png" alt="">
+             </div>
+        
+             <div class="choose_box">
+             <h2>Peanut</h2>
+             <p>￦5,900<span>won</span></p>
+             <img src="img/SUB/sub_peanut_butter.png" alt="">
+            </div>
+         </div>
+       </div>
+            <div class="last_box"></div>
+      </div>
      </div>
  
-
-
-
-
-
-
-
 
 
    </section>
