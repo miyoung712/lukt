@@ -106,7 +106,9 @@
     .choose_box:last-child img {margin:9px 0 0 40px;}
     .choose_box img:hover {transform: translateY(-50px); transition: all 0.2s ease-in-out;}
 
-    .last_box {width:100%; height:570px; margin:0 auto; position:absolute; top: 3780px; 
+    .hide_box {width:1200px; height:30px; margin:0 auto; background-color: brown;}
+
+    .last_box {width:100%; height:300px; margin:0 auto; position:absolute; top: 3779px; 
         left:0; right:0;  background: url(../img/main_img_1.jpg) no-repeat fixed top/cover;}
     
    
