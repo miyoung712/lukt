@@ -54,8 +54,8 @@
     .sub_content:first-of-type {width:50%; height:720px; background-color: #f0b119;}
     .sub_content:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px;  
         color:#000; margin-top:170px; line-height:35px; margin-left:150px; line-height:28px; }
-    .sub_content:first-of-type p {font-family:"HANBatang"; font-size:26px; margin-left:150px;  
-        color:#000; margin-top:30px; line-height:35px;}  
+    .sub_content:first-of-type p {font-family:"HANBatang"; font-size:20px; margin-left:150px;  
+        color:#000; margin-top:30px; line-height:25px;}  
 
     .sub_content:nth-of-type(2) {width:50%; height:720px;  
                                 display:flex; flex-direction: column; }
