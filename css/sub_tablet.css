@@ -20,7 +20,7 @@
 
     .sub_main_box h1 {font-family:"yg-jalnan"; font-size:80px; text-align:center; 
                   text-transform: uppercase; color:#fff; padding-top:60px; line-height:85px;}
-    .sub_main_box img:first-of-type  {width:100px; height:91px; position: absolute; top:10px; left:5%;}
+    .sub_main_box img:first-of-type  {width:100px; height:91px; position: absolute; top:10px; left:2%;}
     .sub_main_box img:nth-of-type(2) {width:340px; height:322px; position: absolute; top:33%; left:33%; }
     .sub_main_box img:nth-of-type(3) {width:350px; height:262px; position: absolute; top:47%; left:50%; }
     .sub_main_box img:nth-of-type(2):hover {transform: translateY(-22px); transition: all 0.3s ease-in-out;}
@@ -104,7 +104,7 @@
       color:#8b8267; text-align:center; margin-top:55px; }
     .choose_box p {font-family: "S-CoreDream-4Regular"; font-size:14px; color:#878686; text-align:center; margin-top:3px; line-height:18px; letter-spacing:1px;}
 
-    .choose_box:first-child img {margin:9px 0 0 45px; position:relative;}
+    .choose_box:first-child img {margin:9px 0 0 45px; }
     .choose_box:nth-child(2) img {margin:9px 0 0 45px; }
     .choose_box:last-child img {margin:9px 0 0 45px;}
     .choose_box img:hover {transform: translateY(-50px); transition: all 0.2s ease-in-out;}
