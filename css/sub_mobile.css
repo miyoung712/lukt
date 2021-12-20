@@ -4,7 +4,7 @@
   /* mobile */
 
   @media (max-width:599px){
-    section {width:100%; height:3670px; margin:0 auto; 
+    section {width:100%; height:4070px; margin:0 auto; 
             padding-top:100px; background-color:#dceffc; position:relative;}
 
     #sub_main {width:100%; height:900px; margin:0 auto; 
@@ -18,22 +18,22 @@
     .sub_main_box img:nth-of-type(3) {transform: translateY(25px); transition: all 1s; opacity: 0;}
     /* 서브_메인 이미지 슬라이드 */
 
-    .sub_main_box h1 {font-family:"yg-jalnan"; font-size:80px; text-align:center; 
-                  text-transform: uppercase; color:#fff; padding-top:60px; line-height:85px;}
+    .sub_main_box h1 {font-family:"yg-jalnan"; font-size:70px; text-align:center; 
+                  text-transform: uppercase; color:#fff; padding-top:60px; line-height:75px;}
     .sub_main_box img:first-of-type  {width:70px; height:64px; position: absolute; top:25px; left:2%;}
-    .sub_main_box img:nth-of-type(2) {width:280px; height:265px; position: absolute; top:50%; left:22%; }
-    .sub_main_box img:nth-of-type(3) {width:260px; height:195px; position: absolute; top:60%; left:50%; }
+    .sub_main_box img:nth-of-type(2) {width:280px; height:265px; position: absolute; top:46%; left:22%; }
+    .sub_main_box img:nth-of-type(3) {width:260px; height:195px; position: absolute; top:58%; left:51%; }
     .sub_main_box img:nth-of-type(2):hover {transform: translateY(-22px); transition: all 0.3s ease-in-out;}
-    .sub_main_box p { font-family:"HANBatang"; font-size:23px; text-align:center;   
-                   color:#256be9; margin-top:415px; line-height:36px;}
+    .sub_main_box p { font-family:"HANBatang"; font-size:22px; text-align:center;   
+                   color:#256be9; margin-top:340px; line-height:27px;}
 
     .fixed_sub {width:100%; height:370px; margin:0 auto; background-color:#256be9;
                position:absolute; top:1000px; left:0; right:0;}
-    .fixed_sub h2 {font-family:"S-CoreDream-4Regular"; font-size: 22px; color:#fff;
+    .fixed_sub h2 {font-family:"S-CoreDream-4Regular"; font-size: 18px; color:#fff;
                    text-align:center; letter-spacing:3px; padding-top:83px;}
 
     .add_to_cart_box {box-sizing:border-box; position: absolute; width:280px;
-                    top:54%; left:50%; transform:translate(-50%,-50%);} 
+                    top:54%; left:44%; transform:translate(-50%,-50%);} 
     .add_to_cart_box input[type=text] {
         height:100px; font-size:20px; float:left; width:220PX; border:20PX; background:#f1f1f1;
         border-radius:50px; margin-top:50px;  padding:50px;}
@@ -47,69 +47,69 @@
     .add_to_cart_box_box::after{content:""; clear:both; display:table;} 
 
   
-    .sub_content_fixed {width:100%; height:1522px; margin:0 auto; 
+    .sub_content_fixed {width:100%; height:1134px; margin:0 auto; 
                        position:absolute; top:1370px; left:0; right:0; background-color:#fff;
                        display:flex; flex-direction: row; flex-wrap:wrap;
                        justify-content:center; align-content:flex-start; align-items: center; }
 
-    .sub_content:first-of-type {width:50%; height:670px; }
-    .sub_content:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px;  
-        color:#000; margin-top:175px; line-height:35px; margin-left:70px; line-height:28px; }
-    .sub_content:first-of-type p {font-family:"HANBatang"; font-size:20px; margin-left:70px;  
-        color:#000; margin-top:30px; line-height:25px;}  
+    .sub_content:first-of-type {width:50%; height:630px; }
+    .sub_content:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:15px; letter-spacing: 2px;  
+        color:#000; margin-top:125px; line-height:35px; margin-left:20px; line-height:25px; }
+    .sub_content:first-of-type p {font-family:"HANBatang"; font-size:17px; margin-left:20px;  
+        color:#000; margin-top:20px; line-height:22px;}  
 
-    .sub_content:nth-of-type(2) {width:50%; height:670px; 
+    .sub_content:nth-of-type(2) {width:50%; height:630px; 
                                 display:flex; flex-direction: column; }
 
     .sub_content_2:first-of-type {width:100%; height:350px;}
-    .sub_content_2:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px; color:#000; margin-top:175px; line-height:35px; margin-left:51px; line-height:28px; }
-    .sub_content_2:first-of-type p {font-family:"HANBatang"; font-size:20px; margin-left:53px;  
-        color:#000; margin-top:12px; line-height:25px;}  
+    .sub_content_2:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:15px; letter-spacing: 2px; color:#000; margin-top:125px; line-height:35px; margin-left:40px; line-height:28px; }
+    .sub_content_2:first-of-type p {font-family:"HANBatang"; font-size:16px; margin-left:40px;  
+        color:#000; margin-top:12px; line-height:22px;}  
 
-    .sub_content_2:nth-of-type(2) {width:100%; height:310px;  }
-    .sub_content_2:nth-of-type(2) h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px; color:#000; margin-top:25px; line-height:35px; margin-left:51px; line-height:28px; }
-    .sub_content_2:nth-of-type(2) p {font-family:"HANBatang"; font-size:20px; margin-left:53px;  
-        color:#000; margin-top:12px; line-height:25px;}  
+    .sub_content_2:nth-of-type(2) {width:100%; height:310px; }
+    .sub_content_2:nth-of-type(2) h1 {font-family:"S-CoreDream-4Regular"; font-size:15px; letter-spacing: 2px; color:#000; margin-top:40px; line-height:35px; margin-left:40px; line-height:28px; }
+    .sub_content_2:nth-of-type(2) p {font-family:"HANBatang"; font-size:16px; margin-left:40px;  
+        color:#000; margin-top:12px; line-height:22px;}  
 
     .sub_img {width:100%; height:1210px; margin:0 auto; 
              display:flex; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; }
-    .sub_img img:first-of-type {width:50%; height:35%; margin-top:-20px; margin-left:-20px;}
-    .sub_img img:nth-of-type(2) {width:50%; height:35%; margin-top:-20px; margin-right:-20px;}
-    .sub_img img:nth-of-type(3) {width:50%; height:35%; margin:40px 0 0 -20px; }
+    .sub_img img:first-of-type {width:50%; height:20%; margin-top:-20px; margin-left:-20px;}
+    .sub_img img:nth-of-type(2) {width:50%; height:20%; margin-top:-20px; margin-right:-20px;}
+    .sub_img img:nth-of-type(3) {width:50%; height:20%; margin:40px 0 0 -20px; }
    
     /* 서브 내용 이미지 슬라이드 */
     #sub_slide > div {height:1200px; padding:20px;}
     .sub_img img:first-of-type {transform: translateY(38px); transition: all 1s; opacity: 0;}
-    .sub_img img:nth-of-type(2) {transform: translateY(38px); transition: all 5s; opacity: 0;}
-    .sub_img img:nth-of-type(3) {transform: translateY(38px); transition: all 6s; opacity: 0;}
+    .sub_img img:nth-of-type(2) {transform: translateY(38px); transition: all 3s; opacity: 0;}
+    .sub_img img:nth-of-type(3) {transform: translateY(38px); transition: all 4s; opacity: 0;}
     /* 서브 내용 이미지 슬라이드 */
 
-    .choose_big_box {width:100%; height:550px; margin-top:-342px; background-color:#fff;}
-    .choose_big_box h1 {font-family:"MaruBuri-Regular"; font-size: 30px; color:#000;
+    .choose_big_box {width:100%; height:550px; margin-top:-830px; background-color:#fff;}
+    .choose_big_box h1 {font-family:"MaruBuri-Regular"; font-size: 22px; color:#000;
         text-align:center; letter-spacing:3px; padding-top:83px; text-transform: uppercase;}
     .choose_big_box p {font-family:"S-CoreDream-4Regular"; font-size: 20px; color:#6a6a6a;
         text-align:center; letter-spacing:3px; padding-top:5px; text-align:center;}   
 
-    .c_box {width:100%; height:400px; margin:0 auto; display:flex; flex-direction: row; 
+    .c_box {width:100%; height:2395px; margin:0 auto; display:flex; flex-direction:column; background-color: #fff;
             justify-content: center;  align-items: center;  margin-top:20px; position:relative;}  
     .choose_box:first-of-type {width:100%; height:400px; }
     .choose_box:nth-of-type(2) {width:100%; height:400px; }
     .choose_box:nth-of-type(3) {width:100%; height:400px; }
 
     .choose_box:first-child h2 {font-family: "MaruBuri-Regular"; font-size:27px; 
-      color:#ea5f54; text-align:center; margin-top:55px; }
+      color:#ea5f54; text-align:center; margin-top:-450px; }
     .choose_box:nth-child(2) h2 {font-family: "MaruBuri-Regular"; font-size:27px; 
-      color:#f0b119; text-align:center; margin-top:55px; }
+      color:#f0b119; text-align:center; margin-top:-450px; }
     .choose_box:last-child h2 {font-family: "MaruBuri-Regular"; font-size:27px; 
-      color:#8b8267; text-align:center; margin-top:55px; }
+      color:#8b8267; text-align:center; margin-top:-450px; }
     .choose_box p {font-family: "S-CoreDream-4Regular"; font-size:14px; color:#878686; text-align:center; margin-top:3px; line-height:18px; letter-spacing:1px;}
 
-    .choose_box:first-child img {margin:9px 0 0 45px; }
-    .choose_box:nth-child(2) img {margin:9px 0 0 45px; }
-    .choose_box:last-child img {margin:9px 0 0 45px;}
+    .choose_box:first-child img {margin:9px 0 0 115px; }
+    .choose_box:nth-child(2) img {margin:9px 0 0 115px; }
+    .choose_box:last-child img {margin:9px 0 0 115px;}
     .choose_box img:hover {transform: translateY(-50px); transition: all 0.2s ease-in-out;}
 
-   .last_box {width:100%; height:300px; margin:0 auto; position:absolute; top: 3370px; 
+   .last_box {width:100%; height:300px; margin:0 auto; position:absolute; top: 3870px; 
         left:0; right:0;  background: url(../img/main_img_1.jpg) no-repeat fixed top/cover;}
     
    

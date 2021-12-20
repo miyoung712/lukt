@@ -4,7 +4,7 @@
   /* tablet */
 
   @media (min-width:600px) and (max-width:1199px){
-    section {width:100%; height:3670px; margin:0 auto; 
+    section {width:100%; height:3750px; margin:0 auto; 
             padding-top:100px; background-color:#dceffc; position:relative;}
 
     #sub_main {width:100%; height:900px; margin:0 auto; 
@@ -47,22 +47,22 @@
     .add_to_cart_box_box::after{content:""; clear:both; display:table;} 
 
   
-    .sub_content_fixed {width:100%; height:1522px; margin:0 auto; 
+    .sub_content_fixed {width:100%; height:1632px; margin:0 auto; 
                        position:absolute; top:1370px; left:0; right:0; background-color:#fff;
                        display:flex; flex-direction: row; flex-wrap:wrap;
                        justify-content:center; align-content:flex-start; align-items: center; }
 
-    .sub_content:first-of-type {width:50%; height:670px; }
+    .sub_content:first-of-type {width:50%; height:780px; }
     .sub_content:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px;  
-        color:#000; margin-top:175px; line-height:35px; margin-left:70px; line-height:28px; }
+        color:#000; margin-top:145px; line-height:35px; margin-left:70px; line-height:28px; }
     .sub_content:first-of-type p {font-family:"HANBatang"; font-size:20px; margin-left:70px;  
         color:#000; margin-top:30px; line-height:25px;}  
 
-    .sub_content:nth-of-type(2) {width:50%; height:670px; 
+    .sub_content:nth-of-type(2) {width:50%; height:780px; 
                                 display:flex; flex-direction: column; }
 
-    .sub_content_2:first-of-type {width:100%; height:350px;}
-    .sub_content_2:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px; color:#000; margin-top:175px; line-height:35px; margin-left:51px; line-height:28px; }
+    .sub_content_2:first-of-type {width:100%; height:410px;}
+    .sub_content_2:first-of-type h1 {font-family:"S-CoreDream-4Regular"; font-size:19px; letter-spacing: 2px; color:#000; margin-top:145px; line-height:35px; margin-left:51px; line-height:28px; }
     .sub_content_2:first-of-type p {font-family:"HANBatang"; font-size:20px; margin-left:53px;  
         color:#000; margin-top:12px; line-height:25px;}  
 
@@ -80,8 +80,8 @@
     /* 서브 내용 이미지 슬라이드 */
     #sub_slide > div {height:1200px; padding:20px;}
     .sub_img img:first-of-type {transform: translateY(38px); transition: all 1s; opacity: 0;}
-    .sub_img img:nth-of-type(2) {transform: translateY(38px); transition: all 5s; opacity: 0;}
-    .sub_img img:nth-of-type(3) {transform: translateY(38px); transition: all 6s; opacity: 0;}
+    .sub_img img:nth-of-type(2) {transform: translateY(38px); transition: all 3s; opacity: 0;}
+    .sub_img img:nth-of-type(3) {transform: translateY(38px); transition: all 4s; opacity: 0;}
     /* 서브 내용 이미지 슬라이드 */
 
     .choose_big_box {width:100%; height:550px; margin-top:-342px; background-color:#fff;}
@@ -109,7 +109,7 @@
     .choose_box:last-child img {margin:9px 0 0 45px;}
     .choose_box img:hover {transform: translateY(-50px); transition: all 0.2s ease-in-out;}
 
-   .last_box {width:100%; height:300px; margin:0 auto; position:absolute; top: 3370px; 
+   .last_box {width:100%; height:300px; margin:0 auto; position:absolute; top: 3480px; 
         left:0; right:0;  background: url(../img/main_img_1.jpg) no-repeat fixed top/cover;}
     
    
